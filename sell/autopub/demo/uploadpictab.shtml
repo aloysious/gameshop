@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>主站图片发布组件</title>
+<!-- 头部资源 -->
+<!--#include virtual="../../../insure/autopub/demo/layout/assets.html"--><!-- 头部资源 end -->
+<!-- 本页面独立资源 -->
+<link rel="stylesheet" href="http://a.tbcdn.cn/app/dp/insure/autopub/css/publish.css"/>
+</head>
+<body class="ipcard">
+<!-- 淘宝公用吊顶 --> 
+<!--#include virtual="../../../insure/autopub/demo/layout/site-nav.html"--><!-- 淘宝公用吊顶 end --> 
+<!-- 主体部分 -->
+<article class="main-content">
+<!-- 上传图片开始 -->
+<ul>
+	<li id="J_UploadPicTab">
+		<label>宝贝 图片：</label>
+		<span>
+		<!-- imageUpload -->
+        <div id="itemPic">
+	        <div class="pic-manager2">
+	            <div class="pm-sample">
+	                <div class="pm-box current"> 800px*800px<br>以上的图片，可以在宝贝详情页提供图片放大功能</div>
+					<ul class="pm-bar">
+						<li class="current"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+	            </div>
+				<div class="pm-main">
+					<input type="hidden" class="J_FirstPicField" />
+					<ul id="J_PanelLocalList" class="pm-pwrap">
+						<li class="pm-item  first ">
+							<div class="pm-box"></div>
+							<div class="pm-itemcont">
+								<div class="preview"></div>
+								<span class="upload"><a href="javascript:;">
+									<input type="file"  name="_fma.pu._0.ima" /></a>
+								</span>
+								<input type="hidden" class="J_PicUrl" name="picUrl1" value="" />
+								<input name="image_pos" type="hidden" value="1" />
+							</div>
+							<div class="pm-loading">
+								<div class="pm-loading-inner">
+								<img alt="" src="http://img03.taobaocdn.com/tps/i3/T1jBamXj4fXXXXXXXX-16-16.gif">上传中</div>
+							</div>
+							<div class="act">
+
+								<span class="moveleft" data-act="moveLeft">左移</span>
+								<span class="moveright" data-act="moveRight">右移</span>
+								<span class="del" data-act="del">删除</span>
+							</div>
+						</li>
+						<li class="pm-item ">
+							<div class="pm-box"></div>
+							<div class="pm-itemcont">
+								<div class="preview"></div>
+								<span class="upload"><a href="javascript:;">
+									<input type="file"  name="_fma.pu._0.imag" /></a>
+								</span>
+								<input type="hidden" class="J_PicUrl" name="picUrl2" value="" />
+								<input name="image_pos" type="hidden" value="2" />
+							</div>
+							<div class="pm-loading">
+								<div class="pm-loading-inner">
+								<img alt="" src="http://img03.taobaocdn.com/tps/i3/T1jBamXj4fXXXXXXXX-16-16.gif">上传中</div>
+							</div>
+							<div class="act">
+								<span class="moveleft" data-act="moveLeft">左移</span>
+								<span class="moveright" data-act="moveRight">右移</span>
+								<span class="del" data-act="del">删除</span>
+							</div>
+						</li>
+						<li class="pm-item ">
+							<div class="pm-box"></div>
+							<div class="pm-itemcont">
+								<div class="preview"></div>
+								<span class="upload"><a href="javascript:;">
+									<input type="file"  name="_fma.pu._0.image" /></a>
+								</span>
+								<input type="hidden" class="J_PicUrl" name="picUrl3" value="" />
+								<input name="image_pos" type="hidden" value="3" />
+							</div>
+							<div class="pm-loading">
+								<div class="pm-loading-inner">
+								<img alt="" src="http://img03.taobaocdn.com/tps/i3/T1jBamXj4fXXXXXXXX-16-16.gif">上传中</div>
+							</div>
+							<div class="act">
+								<span class="moveleft" data-act="moveLeft">左移</span>
+								<span class="moveright" data-act="moveRight">右移</span>
+								<span class="del" data-act="del">删除</span>
+							</div>
+						</li>
+						<li class="pm-item ">
+							<div class="pm-box"></div>
+							<div class="pm-itemcont">
+								<div class="preview"></div>
+								<span class="upload"><a href="javascript:;">
+									<input type="file"  name="_fma.pu._0.image4" /></a>
+								</span>
+								<input type="hidden" class="J_PicUrl" name="picUrl4" value="" />
+								<input name="image_pos" type="hidden" value="4" />
+							</div>
+							<div class="pm-loading">
+								<div class="pm-loading-inner">
+								<img alt="" src="http://img03.taobaocdn.com/tps/i3/T1jBamXj4fXXXXXXXX-16-16.gif">上传中</div>
+							</div>
+							<div class="act">
+								<span class="moveleft" data-act="moveLeft">左移</span>
+								<span class="moveright" data-act="moveRight">右移</span>
+								<span class="del" data-act="del">删除</span>
+							</div>
+						</li>
+						<li class="pm-item ">
+							<div class="pm-box"></div>
+							<div class="pm-itemcont">
+								<div class="preview"></div>
+								<span class="upload"><a href="javascript:;">
+									<input type="file"  name="_fma.pu._0.image5" /></a>
+								</span>
+								<input type="hidden" class="J_PicUrl" name="picUrl5" value="" />
+								<input name="image_pos" type="hidden" value="5" />
+							</div>
+							<div class="pm-loading">
+								<div class="pm-loading-inner">
+								<img alt="" src="http://img03.taobaocdn.com/tps/i3/T1jBamXj4fXXXXXXXX-16-16.gif">上传中
+								</div>
+							</div>
+							<div class="act">
+								<span class="moveleft" data-act="moveLeft">左移</span>
+								<span class="moveright" data-act="moveRight">右移</span>
+								<span class="del" data-act="del">删除</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="pm-msg">
+					<div class="msg hidden" id="J_TipFood">
+						<p class="attention" style="width:559px">
+							请在宝贝图片栏第1张或第2张位置上传该食品带QS标记的外观图片。
+						</p>
+					</div>
+					<div class="tips-image">
+						您的图片空间剩余容量为<font color="red">1.00G</font>。
+						图片至少上传1张（第1张不计图片空间容量），图片大小不能超过500K。
+					</div>
+				</div>
+			</div>
+			<div class="J_picTadget picTadget"></div>
+	    </div>
+		<script type="text/data" id="J_ModItemPic">
+		{"picTadgatSrc":"http://a.tbcdn.cn/app/dp/charge/wt/adminseller/demo/picListIframe.html","picUploadApi":"/auction/publish/uploadSingleImage.do","data":{"_tb_token_":"f0363e8f3b86f"}}
+		</script>
+	</span>
+	</li>
+	<script>
+    KISSY.config({
+        packages: [
+            {
+                name: "itempub",
+                path: "http://a.tbcdn.cn/app/dp/insure/autopub/js/",
+                charset: "gbk"
+            }
+        ]
+    });
+    KISSY.use('itempub/upload/imgspace.css,itempub/upload/itempic.css,itempub/upload/uploadspace.css,itempub/upload/itempic',function(S){
+		var args = S.makeArray(arguments);
+		S.ready(function() {
+			var module = args[1] || {};
+			module.init && module.init();
+		});	
+	});	
+	</script>
+</ul>
+<!-- 上传图片结束 --> 
+</article>
+<!-- 主体部分end --> 
+<!-- 淘宝公用底部 --> 
+<!--#include virtual="../../../charge/wt/demo/layout/footer.html"--><!-- 淘宝公用底部 end -->
+</body>
+</html>

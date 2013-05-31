@@ -1,0 +1,294 @@
+/*
+ *-------------------------------------------------
+ * publish.css
+ * 发布页面样式 
+ * yiling.zy@taobao.com
+ * 2012年2月7日
+ * -------------------------------------------------
+ */
+ 
+/* Global */
+.ins-g {font:12px/1.5 tahoma,arial,\5b8b\4f53;letter-spacing:-4px;*letter-spacing: normal;*word-spacing:-6px;text-rendering:optimizespeed;}
+.opera-only :-o-prefocus,
+.ins-g {word-spacing:-6px;}
+.ins-u {display:inline-block;*zoom:1;*display:inline;letter-spacing: normal;word-spacing:normal;vertical-align:top;text-rendering:auto;}
+ 
+#site-nav-bd {width:990px;}
+.w35{ width:35px;}
+.ml28{ margin-left:28px;}
+.vhidden {visibility:hidden;}
+.main-content{
+	width:990px;
+	margin:0 auto;
+	}
+.tips{ height:50px;}	
+.tips img{ float:left; border:none;}	
+.tips .sub-tips{
+	line-height:25px;
+	width:462px;
+	height:25px;
+	padding:0 10px;
+	border:#fec983 solid 1px;
+	background-color:#fff9e6;
+	float:left;
+	margin-top:14px;
+	background-image:url(http://img02.taobaocdn.com/tps/i2/T1MwiuXgxkXXXXXXXX-16-632.gif);
+	background-repeat:no-repeat;
+	background-position:3px -195px;
+	padding-left:20px;
+    }	
+.base-info{
+	width:990px;
+	border:#c1dbff solid 1px;
+	overflow:auto;
+
+
+}	
+.base-info .title{
+	background:url(http://img01.taobaocdn.com/tps/i1/T1JUWPXbRmXXXXXXXX-1-30.gif) repeat-x ;
+	height:30px;
+	}
+.base-info .title .s1{
+	height:30px;
+	line-height:30px;
+	color:#0c4e88;
+	font-size:14px;
+	font-weight:bold;
+	background:url(http://a.tbcdn.cn/app/ic/img/product_edit_h3.png) no-repeat;
+	padding-left:20px;
+	margin-left:10px;
+	}
+.base-info .title .s2{
+	float:right;
+	height:30px;
+	line-height:30px;
+	margin-right:10px;
+	}			
+.base-info .title .s2 em{ color:#F00; vertical-align:middle;}	
+
+.base-info .left-area{
+	width:185px;
+	float:left;
+	}
+.base-info .left-area strong{ margin:20px 10px; display:block;}	
+.base-info .left-area p,.base-info .left-area button{ margin:5px 10px;}	
+
+.base-info .right-area{
+	width:800px;
+	float:left;
+	border-left:#c1dbff solid 1px;
+	overflow:hidden;
+	}
+	
+.base-info .right-area .fl_l{ *float:left;}
+	
+.base-info .right-area .base-ul	{
+	list-style:none;
+	padding:5px 30px;}
+	
+.base-info .right-area .base-ul li{
+	margin:10px 0;
+	clear:both;
+}
+#itemPic li{clear:none}
+.base-info .right-area .base-ul li .li-label{
+	display:block;
+	width:80px;
+	text-align:right;
+	float:left;
+	padding-right:5px;
+	
+	}
+
+.base-info .buy-num-max {padding:3px 4px;border:1px solid #aaa;width:60px;}
+
+/**
+ * 卖家自定义字段显示层
+ * Modified by huya
+ * @date 2012-07-09
+ * fucking mess 
+ */
+.J_edit_btn {margin-left:6px;vertical-align:middle;}
+body .yui3-widget-mask {background:#000;opacity:0.4;-ms-filter:"alpha(opacity=40)";filter:alpha(opacity=40);zoom:1;}
+body .yui3-panel {position:fixed;_position:absolute;}
+body .yui3-panel-content {background-color:#fff;position:relative;border:1px solid #444;-moz-box-shadow:0 0 5px #666;-webkit-box-shadow:0 0 5px #666;-o-box-shadow:0 0 5px #666;-ms-box-shadow:0 0 5px #666;box-shadow:0 0 5px #666;}
+body .yui3-panel-content .yui3-widget-hd h3 {position:relative;height:32px;line-height:32px;font-weight:normal;color:#686868;padding:0 10px;background-color:#f6f6f6;}
+body .yui3-panel-content .yui3-widget-hd .yui3-widget-button-wrapper {top:10px;right:10px;}
+body .yui3-widget-buttons .yui3-button-close,
+body .yui3-widget-buttons .yui3-button-close .yui3-button-content,
+body .yui3-widget-buttons .yui3-button-close .yui3-button-icon {display:inline-block;width:8px;height:8px;line-height:8px;vertical-align:top;}
+body .yui3-widget-buttons .yui3-button-close .yui3-button-icon,
+body .yui3-panel-content .yui3-widget-ft .elem-edit-btns a {background:url("http://img02.taobaocdn.com/tps/i2/T11FnlXm0dXXb7.iTg-45-88.gif") -9999px -9999px no-repeat;}
+body .yui3-widget-buttons .yui3-button-close .yui3-button-icon {background-position:0 -35px;}
+body .yui3-panel-content .yui3-widget-ft .elem-edit-btns {text-align:center;padding-bottom:10px;}
+body .yui3-panel-content .yui3-widget-ft .elem-edit-btns a {position:relative;background-position:0 0;margin:0 5px;color:#676767;display:inline-block;width:45px;height:25px;line-height:25px;text-align:center;}
+body .yui3-panel-content .yui3-widget-bd {padding:10px;}
+body .yui3-panel-content .yui3-widget-bd .elem-edit-list li {width:50%;padding:2px 0;}
+body .yui3-panel-content .yui3-widget-bd .elem-edit-list label {padding-right:10px;}
+body .yui3-panel-content .yui3-widget-bd .elem-edit-list label span {display:block;}
+body .yui3-panel-content .yui3-widget-bd .elem-edit-ipt {float:left;margin-right:5px;}
+body .yui3-panel-content .yui3-widget-bd .elem-edit-lb {overflow:hidden;*zoom:1;}
+body .edit-panel-mask {height:100%;width:100%;position:absolute;top:0;left:0;z-index:20000;background:#000;filter:alpha(opacity=40);display:none;}
+body .edit-panel-iframe {border:none;height:100%;left:0;margin:0;opacity:0;padding:0;position:absolute;top:0;width:100%;z-index:19999;display:none;}
+
+/**
+ * 车险接口化城市输入
+ * Modified by huya.nzb
+ */
+.citylist-con {border:1px solid #d5e0fc;padding:7px 10px;overflow:hidden;*zoom:1;_width:633px;_float:left;}
+.citylist-demo {color:#969696;}
+.citylist-demo span {display:inline-block;*display:inline;*zoom:1;width:3em;}
+.citylist-ipt {margin-top:7px;overflow:hidden;}
+.citylist-ipt textarea {resize:none;width:610px;padding:7px 10px;overflow:auto;}
+.citylist-err {color:#cc0104;line-height:20px;margin-top:7px;display:none;}
+.citylist-err li {margin:0 !important;}
+
+/** 
+ * 列表页信息
+ * Modified by huya
+ */
+.list-info {*zoom:1;}
+.list-info .li-label .list-info-view {display:inline-block;margin-top:8px;border-bottom:1px dashed #999;width:50px;padding-bottom:2px;cursor:pointer;text-align:center;}
+.list-info-div {overflow:hidden;*zoom:1;}
+.list-info-div input {padding:4px;}
+.list-info-div p input {width:100px;display:inline-block;margin-top:8px;}
+.list-info-div th,
+.list-info-div td {padding:5px 0;font-weight:normal;}
+.list-info-div .list-info-num {padding-right:6px;}
+.list-info-div .list-info-type {padding-right:10px;text-align:left;}
+.list-info-div .list-info-type input {width:327px;}
+.list-info-div .list-info-content {text-align:right;}
+.list-info-div .list-info-content input {width:234px;}
+.list-info-viewbox {padding:5px 9px 5px 19px;border:1px solid #c2dcff;width:490px;background:#fff;min-height:178px;height:auto !important;height:178px;}
+.list-info-viewbox .info-tb-wrapper {margin:6px 0;border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;min-height:100px;height:auto !important;height:100px;}
+.list-info-viewbox .info-tb-wrapper table {width:100%;}
+.list-info-viewbox .info-tb-wrapper td {color:#404040;padding:4px 2px 2px 2px;width:65%;}
+.list-info-viewbox .info-tb-wrapper td.info-coverage {text-align:right;width:35%;}
+.list-info-viewbox h3 {font-size:14px;font-weight:bold;}
+.list-info-viewbox p,
+.list-info-viewbox em {color:#999;}
+.list-info-viewbox p {margin-top:3px;}
+.list-info-viewbox em {display:inline-block;}
+.list-info-viewbox a {position:absolute;bottom:10px;right:10px;}
+.list-info .yui3-overlay {position:absolute;padding-top:5px;}
+
+.base-info .right-area .base-ul .attr .li-label{width:110px}	
+.base-info .right-area h2{ margin:10px 0 0 20px;}	
+.base-info .right-area .green-font{ color:#037f11; font-size:12px; font-weight:bold;}
+.base-info .right-area .red-font{ color:#ff0000; font-size:16px; font-weight:bold;}
+.base-info .right-area .base-ul li .t-div{ float:left;}	
+
+.base-info .right-area .base-ul .attr{ border:#ebebeb solid 1px;  width:600px; display:inline-block;}
+
+.base-info .right-area .base-ul .red{ vertical-align:middle;}
+
+.tb-info-table{ border:#d5e0fc solid 1px; width:645px; margin-bottom:5px;}
+.tb-info-table thead{position:relative;border-bottom:#d5e0fc solid 1px; height:30px; background-color:#f3f8fc;}
+.tb-info-table td{height:30px;}
+
+.tb-info-table .td-c input{vertical-align:middle; margin:0 5px 0 10px;*margin:0 0 0 5px}
+.tb-info-table .td-c .ml5{margin-left:5px}
+.tb-info-table .td-i input{vertical-align:middle; width:50%; }
+.tb-info-table .td-i{text-align:center;}
+.tb-info-table .td-i button{ margin-right:5px;}
+.tb-info-table .td-n input{vertical-align:middle; width:50px; margin-right:10px;}
+.tb-info-table .td-n { text-align:right;}
+#J_sub_mod{position:relative;height:20px}
+#J_sub_mod p{position:absolute;width:300px;}
+
+.tb-info-table .mod-a{display:inline-block;visibility:hidden;background:url(http://img03.taobaocdn.com/tps/i3/T1RdWQXXhiXXXXXXXX-16-16.gif) no-repeat; width:16px; height:16px;}
+
+.tb-info-table .zs-span{width:160px; overflow:hidden; display:inline-block;height:16px;}
+
+
+.jj-textarea{ resize:none; width:500px; height:50px;}
+.health-textarea{ resize:none; width:620px; height:150px; margin:5px 10px;}
+.health-note em{display:block;margin-left:10px}
+.one-line-tips{  display: block;margin: 10px 0 0 10px;}
+.ins-img-space {margin-left:85px;}
+
+.base-info .right-area .base-ul .kissy-editor{ display:inline-block;}
+ .short-btn-gray{
+	 vertical-align:middle;
+/*background:url(http://img03.taobaocdn.com/tps/i3/T19iSQXmVcXXXXXXXX-45-25.png) no-repeat;*/
+	}
+
+.submit-div{  text-align:center; margin-bottom:75px;}
+.ic-btn {
+  background: url("http://img02.taobaocdn.com/tps/i2/T1bu52Xe8fXXXXXXXX-160-50.png") no-repeat scroll 0 0 transparent;
+  border: 0 none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  height: 25px;
+  width: 78px;
+  color:#FFF;
+
+}
+/* msg */
+.page-feedback-msg h2
+{
+	background: url(http://a.tbcdn.cn/sys/common/img/msg_bg.png) no-repeat 12px -400px;
+	color: #f50;
+	display: inline;
+	float: left;
+	font-size: 17px;
+	line-height: 35px;
+	margin: 10px 0;
+	padding: 2px 10px 2px 50px;
+	width: 80px;
+}
+.page-feedback-msg .msg-list
+{
+	background: #fff;
+	margin: 0 0 0 150px;
+}
+.page-feedback-msg h3
+{
+	margin: 0;
+	padding: 20px 10px 15px;
+}
+.page-feedback-msg ol
+{
+	margin-top: -5px;
+	padding: 0 10px 15px;
+}
+.page-feedback-msg ol li
+{
+	list-style: inside decimal;
+}
+
+.page-feedback-msg
+{
+	margin:10px;
+	zoom: 1;
+}
+.page-feedback-msg h3
+{
+	background: none!important;
+	padding-left: 10px!important;
+}
+.page-feedback-msg
+{
+	background: #fff2f2;
+	border: 1px solid #ff8080;
+}
+.msg-error {
+	display:inline-block;
+    background: #FFF2F2;
+    border-color: #FF8080;
+    border: 1px solid #FF8080;
+    color: #404040;
+    line-height: 16px;
+    margin: 3px 0 0 5px;
+    padding: 2px 5px;
+}
+.J_custom_date td{
+	height:60px;
+	padding-top:4px
+	vertical-align:top;
+}
+.J_custom_date .pos_date{
+	position:relative;
+}
+.J_custom_date .pos_date p{position:absolute;width:500px;top:5px}

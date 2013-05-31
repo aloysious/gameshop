@@ -1,0 +1,253 @@
+/*
+ *-------------------------------------------------
+ * buy.css
+ * 投保页面样式 
+ * @author huya.nzb@taobao.com
+ * independent
+ * -------------------------------------------------
+ */
+
+section,article,aside,header,footer,nav,dialog,figure{display:block;}
+ 
+body {font:12px/1.5 tahoma,arial,"宋体",sans-serif;}
+.hidden {display:none !important;}
+.err-highlight {color:#ff0000 !important;}
+.err-highlight input,
+.err-highlight select,
+.err-highlight textarea {border:1px solid #ff0000 !important;}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix {display:inline-block;}
+* html .clearfix {zoom:1;}
+.clearfix {display:block;}
+
+#site-nav-bd {width:990px;}
+
+/* CSS Sprite */
+.error-box,
+.iflow li b,
+.ist-add-box .ist-add,
+.ist-add-box .ist-add-multi,
+.ist-item .ist-delete,
+.form-ctrl .submit-btn,
+.form-ctrl .prev-btn,
+.form-ctrl .confirm-btn {background:url("http://img01.taobaocdn.com/tps/i1/T17i9CXohqXXXXXXXX-150-200.gif") -9999px -9999px no-repeat;}
+ 
+/* 头部 Logo */
+#ins-header {width:990px;margin:0 auto;padding-top:26px;clear:both;}
+#ins-logo {height:35px;}
+
+.ins-content {width:990px;margin:24px auto 0;padding-bottom:90px;}
+.ins-content-hd {overflow:hidden;}
+.ins-content a,
+.ins-content a:link,
+.ins-content a:visited,
+.ins-content a:hover,
+.ins-content a:active {color:#1863b4;text-decoration:none;}
+.ins-content a:hover {text-decoration:underline;}
+
+/* 面包屑 */
+.crumb {float:left;}
+.crumb i {margin-left:8px;margin-right:8px;font-style:normal;}
+
+/* 在线客服 */
+.ww-service {float:right;}
+
+.ins-title {text-align:center;font-size:16px;font-weight:bold;clear:both;}
+
+/* 投保步骤 */
+.iflow {text-align:center;margin-top:11px;}
+.iflow li {height:21px;line-height:21px;display:inline-block;*display:inline;*zoom:1;}
+.iflow li b {display:inline-block;width:46px;height:21px;margin:0 18px 0 10px;color:#fff;background-position:0 -21px;}
+.iflow li span {font-size:14px;font-weight:bold;color:#b7b7b7;}
+.iflow li.cur b {background-position:0 0;}
+.iflow li.cur span {color:#4d4d4d;}
+
+.flow-content .flow-title {display:none;}
+.flow-content-loading {background:#fff url("http://img01.taobaocdn.com/tps/i1/T1TACRXfXkXXXXXXXX-24-24.gif") 50% 70px no-repeat;min-height:300px;height:auto !important;height:300px;}
+.flow-content-loading article,
+.flow-content-loading .error-box {display:none;}
+
+.info-mod {margin-top:12px;}
+.form-info .info-mod .info-mod-title,
+.health-info .info-mod .info-mod-title {height:27px;line-height:30px;overflow:hidden;padding:0 10px;font-size:14px;font-weight:bold;border-bottom:2px solid #cadeff;background-color:#f3f8ff;}
+.info-mod .note {font-size:12px;color:#a0a0a0 !important;}
+.info-mod .info-mod-table {margin-top:10px;width:100%;border-collapse:collapse;border-spacing:0;}
+.info-mod .info-mod-table th,
+.info-mod .info-mod-table td {border:1px solid #d5d5d5;padding:7px 9px;font-weight:normal;word-wrap:break-word;}
+.info-mod .info-mod-table th {width:141px;text-align:center;background-color:#f8f8f8;padding:7px 2px;text-align:right;}
+
+
+/* 表单组件字段 */
+.widget-list {margin-top:12px;}
+.widget-item {padding:8px 0;vertical-align:top;}
+.widget-item .widget-label {display:inline-block;width:140px;padding-right:5px;margin-right:10px;text-align:right;vertical-align:top;}
+.widget-required .widget-label {background:url("http://img04.taobaocdn.com/tps/i4/T1OZNzXjXDXXXXXXXX-7-7.png") right 6px no-repeat;}
+.widget-required .widget-label-unrequired {background:none;}
+.widget-item .ipt-txt {border:1px solid #aaa;padding:3px 4px;width:120px;background-color:#fff;}
+.widget-item .ipt-txt-disabled {background-color:#eee;}
+.widget-item .ipt-rdo,
+.widget-item .ipt-cbx {vertical-align:middle;}
+.widget-item .note {margin-top:3px;display:block;}
+.widget-item select {padding:2px;border:1px solid #aaa;}
+.widget-item .ib {display:inline-block;*display:inline;*zoom:1;}
+.widget-item .rdo-con,
+.widget-item .cbx-con {margin-right:7px;}
+.widget-item .rdo-con label,
+.widget-item .cbx-con label {margin-left:3px;}
+.widget-item .item-con {width:820px;display:inline-block;*display:inline;*zoom:1;}
+.widget-item .save-holder-con {margin-left:10px;}
+.ist-item .widget-item .item-con {width:420px;}
+
+.cholder-widget .cbx-con {margin-right:10px;}
+.cholder-widget .del-cholder {display:inline-block;cursor:pointer;margin-left:4px;width:8px;height:8px;}
+.cholder-widget .cbx-con:hover .del-cholder {background:url("http://img02.taobaocdn.com/tps/i2/T1R.LiXlFmXXawLiDr-8-8.png") 0 0 no-repeat;}
+.name-widget .ipt-txt {width:120px;}
+.name-widget .self-bind {margin:0 3px 0 7px;}
+.email-widget .ipt-txt {width:240px;}
+.card-widget .ipt-txt {width:140px;margin-left:10px;}
+.card-widget select {width:90px;}
+.birthday-widget .ipt-txt {width:120px;visibility:hidden;}
+.cascade-widget select {margin-right:10px;display:inline-block;}
+.relation-widget select {width:80px;}
+.postaddress-widget .ipt-txt {width:360px;}
+.phone-widget .ipt-phone-no {width:120px;}
+.areaphone-widget .areaphone-area {width:30px;}
+.areaphone-widget .areaphone-no {width:100px;}
+
+/* 被保险人信息 */
+.ist-list {margin:20px 0 0 30px;}
+.ist-item {margin:10px 0;background:#ffffbf;border:1px solid #ffca80;padding:5px;width:676px;position:relative;}
+.ist-item .ist-item-num {display:block;width:60px;position:absolute;left:5px;top:0px;height:100%;border-right:1px dashed #fcca81;text-align:center;color:#FFCB7F;font-size:46px;font-weight:700;_width:61px;_border-right:none;}
+.ist-item .widget-list {margin-top:0px;padding-left:80px;background:#fefff1;_background:#fefff1 url("http://img01.taobaocdn.com/tps/i1/T1vxeTXa4aXXXXXXXX-1-6.png") 61px 0 repeat-y;min-height:60px;height:auto !important;height:60px;}
+.ist-item .ist-delete {padding-left:16px;position:absolute;right:15px;top:15px;background-position:1px -66px;}
+.ist-add-box {margin-left:30px;width:688px;text-align:center;}
+.ist-add-box .ist-add {padding-left:18px;margin-right:20px;background-position:2px -49px;}
+.ist-add-box .ist-add-multi {padding-left:18px;margin-right:20px;background-position:2px -49px;}
+
+.multi-add-box .multi-add-rules,
+.multi-add-box .multi-add-btns a,
+.multi-add-box .multi-add-close {background:url("http://img02.taobaocdn.com/tps/i2/T11FnlXm0dXXb7.iTg-45-88.gif") -9999px -9999px no-repeat;}
+.multi-add-box {background-color:#f6f6f6;position:relative;border:1px solid #444;-moz-box-shadow:0 0 5px #666;-webkit-box-shadow:0 0 5px #666;-o-box-shadow:0 0 5px #666;-ms-box-shadow:0 0 5px #666;box-shadow:0 0 5px #666;}
+.multi-add-box h3 {position:relative;height:32px;line-height:32px;font-weight:normal;color:#686868;padding:0 10px;background-color:#f6f6f6;}
+.multi-add-box .multi-add-con {padding:7px 10px 10px;background-color:#fff;}
+.multi-add-box .multi-add-rules {padding-left:22px;color:#666;background-position:0 -69px;}
+.multi-add-box .multi-add-textarea {margin-top:12px;}
+.multi-add-box .multi-add-textarea textarea {color:#333;border:1px solid #dadada;width:492px;height:150px;padding:7px 10px;background-color:#fff;}
+.multi-add-box .multi-add-btns {margin-top:10px;text-align:center;}
+.multi-add-box .multi-add-btns a {position:relative;background-position:0 0;margin:0 5px;color:#676767;display:inline-block;width:45px;height:25px;line-height:25px;text-align:center;}
+.multi-add-box .multi-add-info {position:absolute;left:11px;bottom:14px;color:#404040;}
+.multi-add-box .multi-add-error {color:#ff0000;}
+.multi-add-box .multi-add-close {display:block;position:absolute;width:8px;height:8px;top:10px;right:10px;background-position:0 -35px;}
+body .yui3-widget-mask {background:#000;opacity:0.4;-ms-filter:"alpha(opacity=40)";filter:alpha(opacity=40);zoom:1;}
+body .yui3-panel {position:fixed;_position:absolute;}
+.multi-add-mask {height:100%;width:100%;position:absolute;top:0;left:0;z-index:20000;background:#000;filter:alpha(opacity=40);display:none;}
+.multi-add-iframe {border:none;height:100%;left:0;margin:0;opacity:0;padding:0;position:absolute;top:0;width:100%;z-index:19999;display:none;}
+
+/* 受益人信息 */
+.bnf-rel-single {margin:18px 0 0 40px;}
+.bnf-rel-single .relation-widget-value {margin-left:20px;margin-right:15px;}
+.bnf-add-box {margin:18px 0 0 40px;position:relative;top:1px;z-index:10;background:#fff;}
+.bnf-add-box span {color:#ff5500;font-weight:bold;margin:0 3px;}
+.bnf-list {padding-left:40px;}
+.bnf-item {clear:both;overflow:hidden;padding-right:45px;border-top:1px solid #d8d8d8;position:relative;}
+.bnf-item .widget-list {padding:8px 0;margin-top:0;letter-spacing:-0.31em;*letter-spacing:normal;word-spacing:-0.43em;}
+.bnf-item .widget-item {display:inline-block;*zoom: 1;*display:inline;letter-spacing:normal;word-spacing:normal;vertical-align:middle;}
+.bnf-item .widget-label {width:60px;}
+.bnf-item .name-widget {width:290px;width:auto;}
+.bnf-item .ratio-widget {width:230px;width:auto;margin-left:85px;}
+.bnf-item .ratio-widget .ipt-txt {width:30px;}
+.bnf-item .ratio-widget span {margin-left:5px;}
+.bnf-item .relation-widget {width:270px;padding-left:35px;padding-left:0;width:auto;margin-left:78px;}
+.bnf-item .relation-widget select {width:130px;}
+.bnf-item .relation-widget .widget-label {width:140px;}
+.bnf-item .card-widget select {width:130px;margin-right:85px;display:inline-block;}
+.bnf-item .card-widget .ipt-txt {margin-left:0;display:inline-block;}
+.bnf-item .birthday-widget {margin-left:65px;}
+.bnf-item .bnf-delete {position:absolute;right:10px;top:40px;}
+
+/* 保单明细 */
+.order-info .widget-label {text-align:center;width:auto;padding-right:0px;padding-left:12px;margin-right:0px;}
+.order-info .widget-required .widget-label {background-position:left 6px;}
+.order-info .effecttime-widget .note {margin-left:15px;}
+.order-info .order-ins-desc td {line-height:2;}
+
+/* 保费 */
+.premium-info {margin-top:20px;}
+.premium-info .info-mod-hd {display:none;}
+.premium-info p {padding:10px;border:1px solid #ffc674;background:#ffffe3;}
+.premium-info .premium-price {color:#ff5500;margin-right:4px;font-weight:bold;}
+
+/* 表单按钮 */
+.form-ctrl {margin-top:30px;text-align:center;}
+.form-ctrl input,
+.form-ctrl button {cursor:pointer;color:#fff;}
+.form-ctrl .submit-btn,
+.form-ctrl .prev-btn {width:80px;height:25px;line-height:25px;background-position:0 -91px;border:none;}
+.form-ctrl .confirm-btn {width:150px;height:28px;line-height:28px;background-position:0 -116px;border:none;font-size:14px;font-weight:bold;}
+
+/* 错误信息框 */
+.error-box {display:none;margin-top:12px;padding:17px 10px 17px 56px;border:1px solid #ff8080;background-color:#fff2f2;background-position:12px -155px;}
+.error-box .err-title {font-size:14px;font-weight:bold;}
+.error-box .err-list {margin:6px 0;}
+.error-box .err-list li {list-style-position:inside;list-style-type:decimal;padding:3px 0;}
+
+/*
+ *-------------------------------------------------
+ * 订单核对样式 
+ * -------------------------------------------------
+ */
+.check-order .info-mod-hd {display:none;}
+.order-content .info-mod-table {margin-top:0;}
+.order-content .info-mod-table td {width:332px;}
+.order-content .info-mod-table td.colspan-3 {width:827px;}
+.order-content .colspan-table {margin-bottom:-1px;}
+.order-content .info-mod-bd h2 {padding:5px 9px;text-align:left;font-size:14px;font-weight:bold;background-color:#d5d5d5;}
+.order-multi li {clear:both;overflow:hidden;position:relative;margin-top:-1px;border-left:1px solid #d5d5d5;vertical-align:bottom;_zoom:1;_background:url("http://img02.taobaocdn.com/tps/i2/T1iG5TXgxnXXXXXXXX-1-1.png") 0 bottom repeat-x;}
+.order-multi .multi-no {display:block;width:49px;position:absolute;left:0;top:-1px;height:100%;border-bottom:1px solid #d5d5d5;text-align:center;color:#d5d5d5;font-size:24px;line-height:34px;font-weight:700;}
+.order-multi .multi-no {_position:static;_float:left;_border-bottom:none;}
+.order-multi .multi-tb {width:940px;padding-left:49px;*float:left;_padding-left:0px;}
+.order-multi-ist .multi-ist-tb .multi-ist-th {width:91px;}
+.order-multi-bnf .multi-bnf-tb table {table-layout:fixed;}
+.order-content .order-multi-bnf .multi-bnf-tb th {width:91px;}
+.order-content .order-multi-bnf .multi-bnf-tb th.bnf-td-rel {width:110px;}
+.order-content .order-multi-bnf .multi-bnf-tb td {width:auto;}
+
+.announcement .info-mod-hd {display:block;}
+.announcement .info-mod-hd .info-mod-title {font-size:12px;font-weight:bold;padding:6px 0;}
+.announce-content li,
+.announce-content p {padding:2px 0;}
+
+.clause-check {padding:6px 0;*zoom:1;}
+.clause-check,
+.clause-check a,
+.clause-check input,
+.clause-check label {vertical-align:middle;}
+.clause-check input {margin-right:8px;}
+
+.confirm-order {*zoom:1;}
+.confirm-order .error-tips {background:url("http://img07.taobaocdn.com/tps/i7/T1tvNFXhtjXXXXXXXX-12-12.png") 5px 8px no-repeat;padding:4px 0 4px 24px;}
+.confirm-order .loading-tips .title {background:url("http://img07.taobaocdn.com/tps/i7/T1x2dpXkJrXXXXXXXX-16-16.gif") 0 5px no-repeat;font-size:14px;font-weight:bold;padding:2px 0 2px 24px;}
+.confirm-order .loading-tips p {margin-left:24px;}
+.confirm-order .tip-loading {margin-top:10px;background:url("http://img01.taobaocdn.com/tps/i1/T19exFXgdHXXXXXXXX-10-10.gif") 2px 4px no-repeat;padding-left:20px;font-weight:bold;}
+.confirm-order .tip-loaded {background:none;}
+.confirm-order .tip-loading p,
+.confirm-order .tip-loading li {line-height:1.7;}
+
+.confirm-order .form-ctrl {text-align:left;margin-top:13px;}
+.confirm-order .form-ctrl .confirm-btn {margin-right:10px;}
+.confirm-order .form-ctrl a {margin-right:5px;}
+.confirm-order .form-ctrl input,
+.confirm-order .form-ctrl a,
+.confirm-order .form-ctrl img {vertical-align:middle;}
+
+
+.health-info .question-list {padding:10px 15px;clear:both;}
+.health-info .question-item {border-bottom:1px solid #d5d5d5;overflow:hidden;padding:15px 10px;}
+.health-info .health-question {float:left;width:720px;}
+.health-info .health-anwser {float:left;width:220px;text-align:right;}
+.health-info .health-anwser input {margin:0 5px 0 20px;vertical-align:middle;}
+.health-info .health-question .question-title {font-size:12px;font-weight:normal;}
+.health-info .health-question .question-detail {padding-left:20px;padding-top:3px;}
+.health-info .health-question .question-detail li {background:url("http://img05.taobaocdn.com/tps/i5/T14BhHXepNXXXXXXXX-6-6.png") 0 7px no-repeat;color:#888888;margin:2px 0;padding-left:12px;position:relative;}
+
+.health-info .form-ctrl .submit-btn {margin:0 2px;}

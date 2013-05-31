@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gbk">
+		<title>保险发布页面 - 淘宝网</title>
+				<!-- 头部资源 -->
+		<script>window.g_config={appId:10};</script>
+		<!-- start vmc js 3.1 -->
+<script src="http://a.tbcdn.cn/??s/kissy/1.2.0/seed-min.js,p/global/1.0/global-min.js,s/yui/3.4.1/build/yui-base/yui-base-min.js,app/dp/insure/framework/js/loader/3.4.1/loader.js,app/dp/insure/autopub/js/addmojo.js?t=20100214.js"></script><!-- end vmc js 3.1 -->
+
+		<!-- start vmc css 3.1-->
+<link rel="stylesheet" href="http://a.tbcdn.cn/??p/global/1.0/global-min.css,app/dp/insure/autopub/css/common.css?t=20100214.css" /><!-- end vmc css 3.1-->
+
+		<script type="text/javascript">
+			g_hb_monitor_st=+new Date;
+			INS.use('hubble',function(Y){Y.Hubble.init({pageId:30050});}
+			);
+		</script>
+		<!--[if IE]>
+		<script src="http://a.tbcdn.cn/app/dp/insure/autopub/js/html5.js"></script>
+		<![endif]-->
+			<!-- 头部资源 end -->
+			<!-- 本页面独立资源 -->
+			<link rel="stylesheet" href="http://a.tbcdn.cn/app/dp/insure/autopub/css/publish.css"/>
+			<link href="http://a.tbcdn.cn/s/kissy/1.2.0/cssreset/reset-min.css" rel="stylesheet"/>
+			<!--[if lt IE 8]>
+			<link href="http://a.tbcdn.cn/s/kissy/1.2.0/editor/theme/cool/editor-pkg-sprite-min.css" rel="stylesheet"/>
+			<![endif]-->
+				<!--[if gte IE 8]>
+				<!-->
+				<link href="http://a.tbcdn.cn/s/kissy/1.2.0/editor/theme/cool/editor-pkg-min-datauri.css" rel="stylesheet"/>
+				<!--<![endif]-->
+				
+				</head>
+				<body class="ipcard"><script type="text/javascript">
+(function (d) {
+var ta=d.createElement("script");ta.type="text/javascript";ta.async=true;ta.id="tb-beacon-ac";
+ta.setAttribute("exparams","category=&userid=263662762&channel=112&");
+ta.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/ac.js";
+d.getElementsByTagName("head")[0].appendChild(ta);
+})(document);
+</script>
+<script type="text/javascript">
+(function (d) {
+var ta=d.createElement("script");ta.type="text/javascript";ta.async=true;ta.id="tb-beacon";
+ta.setAttribute("exparams","category=&userid=263662762&tid=daeea3febe8ca45485ca782a7904f563&channel=112&atpanel_end");
+ta.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/atp.js";
+d.getElementsByTagName("head")[0].appendChild(ta);
+})(document);
+</script>
+<script type="text/javascript">
+(function (d) {
+var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+t.setAttribute("exparams","category=&userid=263662762&aplus");
+t.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script>
+
+				<!-- start vmc 3.1 -->
+<div id="site-nav"><div id="site-nav-bd">
+    	<div class="sitenav-mobile"><a href=" http://www.taobao.com/m?spm=1.1000386.176505.4&amp;TBG=146112.176505.4">手机版</a></div>
+    <p class="login-info">
+        <script>TB.Global.writeLoginInfo({"memberServer": "http://member1.taobao.com/", "outmemServer" : "", "loginServer": "https://login.taobao.com/", redirectUrl : "", logoutUrl : ""});</script>
+    </p>
+
+        <ul class="quick-menu">
+        <li class="home"><a href="http://www.taobao.com/" target="_top">淘宝网首页</a></li>
+        <style>
+  #site-nav .quick-menu li.sale1212 {
+    margin-top: 3px;
+    *margin-top: 1px;
+    background: none;
+    position:absolute;
+    left:-70px;
+    
+  }
+</style>
+
+<li class="menu-item">
+  <div class="menu">
+    <a class="menu-hd" style="width:36px;" href="http://love.taobao.com/?taobao_from=1" target="_top" rel="nofollow">我要买<b></b></a>
+    <div class="menu-bd" style="width:68px;height:94px;line-height:1.7;">
+      <div class="menu-bd-panel" style="padding:8px 10px;">
+        <div>
+          <a href="http://love.taobao.com/guang/index.htm?taobao_from=3" target="_top" rel="nofollow">逛宝贝</a>
+          <a href="http://love.taobao.com/album/index.htm?taobao_from=4" target="_top" rel="nofollow">翻专辑</a><br />
+          <a href="http://love.taobao.com/assemble/index.htm?&taobao_from=5" target="_top" rel="nofollow">生活私搭</a>
+          <a href="http://list.taobao.com/browse/cat-0.htm?taobao_from=6" target="_top" rel="nofollow">商品分类</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+
+<li class="mytaobao menu-item">
+  <div class="menu">
+    <a class="menu-hd" href="http://i.taobao.com/my_taobao.htm" target="_top" rel="nofollow">我的淘宝<b></b></a>
+    <div class="menu-bd" style="height: 94px;width:100px">
+      <div class="menu-bd-panel" id="myTaobaoPanel">
+        <div >
+          <a href="http://trade.taobao.com/trade/itemlist/list_bought_items.htm" target="_top" rel="nofollow">已买到的宝贝</a>
+        </div>
+        <div >
+          <a href="http://dongtai.taobao.com/square.htm?nav=2&tracelog=dtgc_tbsycd" target="_top" rel="nofollow">店铺动态</a>
+        </div>
+        <div >
+          <a href="http://i.taobao.com/my_taobao.htm?tracelog=taobaoindexrsidenewfeed" target="_top" rel="nofollow">好友动态</a>
+        </div>
+        <div >
+          <a href="http://yingyong.taobao.com?scm=1012.8.8.4" target="_top" rel="nofollow">买家应用中心</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</li>
+
+<style>
+  #site-nav .seller-center .menu-hd{ width:48px;}
+  #site-nav .seller-center .menu-bd{ width: 94px; line-height:1.7;}
+  #site-nav .seller-center .menu-bd-panel{padding: 8px 10px;}
+</style>
+<li class="seller-center menu-item">
+  <div class="menu">
+    <a class="menu-hd" href="http://mai.taobao.com/seller_admin.htm" target="_top" rel="nofollow">卖家中心<b></b></a>
+    <div class="menu-bd">
+      <div class="menu-bd-panel">
+        <div>
+          <a href="http://trade.taobao.com/trade/itemlist/list_sold_items.htm" target="_top" rel="nofollow">已卖出的宝贝</a>
+          <a href="http://sell.taobao.com/auction/goods/goods_on_sale.htm" target="_top" rel="nofollow">出售中的宝贝</a>
+          <a href="http://fuwu.taobao.com/?tracelog=tbdd" target="_top" rel="nofollow">卖家服务市场</a>
+          <a href="http://learn.taobao.com/user/xueyuanRedirect.htm?target=http://www.alibado.com" target="_top" rel="nofollow">卖家培训中心</a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li class="service">
+  <a href="http://service.taobao.com/support/main/service_center.htm" target="_top" rel="nofollow">联系客服</a>
+</li>
+<li class="cart">
+  <a href="http://cart.taobao.com/my_cart.htm" target="_top" rel="nofollow">
+    <s>
+    </s>购物车
+  </a>
+  <b class="leftline"></b>
+  <b class="rightline"></b>
+</li>
+<li class="favorite menu-item">
+  <div class="menu">
+    <a class="menu-hd" style="width:36px;" href="http://ju.mmstat.com/?url=http://favorite.taobao.com/collect_list-1-.htm?ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739&scjjc=c1" target="_top" rel="nofollow">收藏夹<b></b></a>
+    <div class="menu-bd" style="width:82px;height:73px;line-height:1.7;">
+      <div class="menu-bd-panel" style="padding:8px 10px;">
+        <div>
+          <a href="http://favorite.taobao.com/collect_list.htm?itemtype=1" target="_top" rel="nofollow">收藏的宝贝</a>
+          <a href="http://favorite.taobao.com/collect_list.htm?itemtype=0" target="_top" rel="nofollow">收藏的店铺</a>
+          <a href="http://favorite.taobao.com/hot_collect_list.htm?entrance=home" target="_top" rel="nofollow">热门收藏</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+
+<li class="services menu-item last">
+  <div id="J_Service" class="menu">
+    <a class="menu-hd" href="http://www.taobao.com/sitemap.php?id=sitemap2" target="_top">网站导航<b></b></a>
+    <div id="J_ServicesContainer" class="menu-bd" style="width:202px;width:210px\9;_width:202px;height:337px;"></div>
+  </div>
+</li>
+    </ul>
+</div></div>
+<!-- system-announce -->
+
+<!-- end vmc 3.1 -->
+				<script> KISSY.use('core',function(S){ TB.Global.init();}); </script>
+				<script> KISSY.use('core',function(S){ TB.Global.init();}); </script>
+<!-- 淘宝公用吊顶 end -->
+<script type="text/javascript">
+	INS.use('item-publish');
+</script>
+<!-- 主体部分 -->
+<form id="pubItem" name="pubItem" method="post" enctype="multipart/form-data">
+		<input name='_tb_token_' type='hidden' value='e337ee5e13057'>
+<input type="hidden" name="action" value="publish_action"/>
+<input name="event_submit_do_publish" value="ok" type="hidden" />
+<input type="hidden" name="_fm.b._0.c" value="50024190"/>
+<input type="hidden" name="catId" value="50024190"/>
+<article class="main-content">
+<div class="tips">
+	<img src="http://img04.taobaocdn.com/tps/i4/T1RJ1QXehbXXXXXXXX-180-50.gif">
+	<div class="sub-tips"> <strong>提醒</strong>：商品违规发布累积扣12分将做<a href="#">店铺屏蔽</a>12天！请您在发布前详细了解<a href="#">淘宝规则</a>。 </div>
+</div>
+<article class="base-info">
+<div class="title"> <span class="s2"><em>*</em>表示该项必填</span><span class="s1">填写宝贝基本信息</span> </div>
+<section class="left-area">
+	<strong>产品信息泰康</strong>
+	<p>
+		类目：保险/财产险
+	</p>
+</section>
+<section class="right-area">
+		<h2>1.宝贝基本信息</h2>
+<ul class="base-ul">
+<li>
+	<label  class="li-label">宝贝标题：<em class="red">*</em></label>
+	<div class="fl_l">
+		 		<input type="text" required class="text" style="width:300px;" id="J_title_input" name="_fm.b._0.t" value="">
+		<em class="gray">还能输入</em>
+		<em class="green-font" id="J_limit_show">30字</em>
+	</div>
+</li>
+<li>
+	<label  class="li-label">一口价：<em class="red">*</em></label>
+	<div class="fl_l">
+		 		<input type="money" required class="text w50" name="_fm.b._0.r" value="">
+		元
+		<em class="gray">产品基本定价。如有sku项则录入sku中的最低价格。</em>
+	</div>
+</li>
+<li>
+	<label  class="li-label">折扣率：&nbsp;&nbsp;</label>
+	<div class="fl_l">
+		<input id="J_rate" max="10" min="0" type="money" class="text w50" name="_fm.b._0.d" value="" maxlength="3">
+		折
+		<em class="gray">输入10以内阿拉伯数字，可保留1位小数。不打折无需输入。</em>
+	</div>
+</li>
+<li>
+	<label  class="li-label">投保份数：&nbsp;&nbsp;</label>
+	<div class="fl_l">
+		<select name="_fm.b._0.i" class="buy-num-type">
+			<option value="0" >
+				多份
+			</option>
+			<option value="1" >
+				1份
+			</option>
+		</select>
+		<span class="buy-num-wrapper hide"> 最多购买：<input type="number" step="1" min="1" maxlength="6" class="buy-num-max" name="_fm.b._0.m"> 份</span>
+	</div>
+</li>
+<li>
+	<label  class="li-label">保障期间：&nbsp;&nbsp;</label>
+	<div class="fl_l">
+		<input type="number" class="text w50" name="_fm.b._0.in" value="">
+		<select name="_fm.b._0.p" class="buy-num-type">
+			<option value="1" >日</option>
+			<option value="2" >周</option>
+			<option value="3" >月</option>
+			<option value="4" >年</option>
+		</select>
+		<em class="gray">如产品SKU中有保障期间这个维度，则此处无需录入。</em>
+	</div>
+</li>
+<li>
+	<label  class="li-label">保险简介：&nbsp;&nbsp;</label>
+	<div class="fl_l">
+		<textarea class="jj-textarea" name="_fm.b._0.s"></textarea>
+	</div>
+</li>
+<li style="clear:both">
+	<label  class="li-label">宝贝属性：&nbsp;&nbsp;</label>
+	<div class="attr fl_l">
+		<ul>
+																									<li>
+								<label  class="li-label">保险公司：&nbsp;&nbsp;<em class="red">*</em></label>
+								<input type="hidden" name="_fm.a.1.p" value="20000"/>
+															<select name="_fm.a.1.pr" required>
+																																																																																							<option value="20000:139835470" >泰康人寿 </option>
+																																																																																				</select>
+							</li>
+																																								<li>
+								<label  class="li-label">财产险类型：&nbsp;&nbsp;<em class="red">*</em></label>
+								<input type="hidden" name="_fm.a.2.p" value="16813128"/>
+								<select name="_fm.a.2.pr" required>
+																			<option value="16813128:136517253" >网店专用型 </option>
+																			<option value="16813128:16314470" >自住型 </option>
+																			<option value="16813128:136517255" >承租型 </option>
+																			<option value="16813128:136517256" >出租型 </option>
+																	</select>
+							</li>
+																																								<li>
+								<label  class="li-label">财产险保额：&nbsp;&nbsp;</label>
+								<input type="hidden" name="_fm.a.3.p" value="16433213"/>
+								<select name="_fm.a.3.pr" >
+																			<option value="16433213:136517108" >5万元以上 </option>
+																			<option value="16433213:136517109" >5千-1万元 </option>
+																			<option value="16433213:138858750" >5千元以下 </option>
+																			<option value="16433213:138858751" >1-5万元 </option>
+																	</select>
+							</li>
+																																	<li >
+							<label  class="li-label">保障范围：&nbsp;&nbsp;</label>
+							<input  type="hidden" name="_fm.a.4.p" value="16433212"/>
+															<input  type="checkbox" name="_fm.a.4.pr" value="16433212:90825895"/>
+								火灾
+															<input  type="checkbox" name="_fm.a.4.pr" value="16433212:138858644"/>
+								用电安全
+															<input  type="checkbox" name="_fm.a.4.pr" value="16433212:138858646"/>
+								燃气保障
+															<input  type="checkbox" name="_fm.a.4.pr" value="16433212:136515820"/>
+								管道破裂
+															<input  type="checkbox" name="_fm.a.4.pr" value="16433212:138858647"/>
+								租赁费用损失
+															<input  type="checkbox" name="_fm.a.4.pr" value="16433212:136515821"/>
+								盗抢
+																				</li>
+														</ul>
+	</div>
+</li>
+<li>
+	<label  class="li-label">宝贝图片：&nbsp;&nbsp;<em class="red">*</em></label>
+	<div class="fl_l"  id="J_UploadPicTab">
+		<div id="itemPic">
+			<div class="pic-manager2">
+				<div class="pm-sample">
+					<div class="pm-box current">
+						800px*800px
+						<br>
+						以上的图片，可以在宝贝详情页提供图片放大功能
+					</div>
+					<ul class="pm-bar">
+						<li class="current"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="pm-main">
+					<input type="hidden" class="J_FirstPicField" />
+					<ul id="J_PanelLocalList" class="pm-pwrap">
+						<li class="pm-item  first ">
+							<div class="pm-box"></div>
+							<div class="pm-itemcont">
+								<div class="preview"></div>
+													<span class="upload">
+														<a href="javascript:;">
+															<input type="file"  name="_fm.b._0.pi" />
+														</a>
+													</span>
+								<input type="hidden" class="J_PicUrl" name="_fm.b._0.pic"  />
+								<input name="image_pos" type="hidden" value="1" />
+							</div>
+							<div class="pm-loading">
+								<div class="pm-loading-inner"> <img alt="" src="http://img03.taobaocdn.com/tps/i3/T1jBamXj4fXXXXXXXX-16-16.gif">上传中</div>
+							</div>
+							<div class="act"> <span class="moveleft" data-act="moveLeft">左移</span> <span class="moveright" data-act="moveRight">右移</span> <span class="del" data-act="del">删除</span> </div>
+						</li>
+						<li class="pm-item ">
+							<div class="pm-box"></div>
+							<div class="pm-itemcont">
+								<div class="preview"></div>
+													<span class="upload">
+														<a href="javascript:;">
+															<input type="file"  name="_fm.b._0.pi" />
+														</a>
+													</span>
+								<input type="hidden" class="J_PicUrl" name="_fm.b._0.pic"  />
+								<input name="image_pos" type="hidden" value="2" />
+							</div>
+							<div class="pm-loading">
+								<div class="pm-loading-inner"> <img alt="" src="http://img03.taobaocdn.com/tps/i3/T1jBamXj4fXXXXXXXX-16-16.gif">上传中</div>
+							</div>
+							<div class="act"> <span class="moveleft" data-act="moveLeft">左移</span> <span class="moveright" data-act="moveRight">右移</span> <span class="del" data-act="del">删除</span> </div>
+						</li>
+						<li class="pm-item ">
+							<div class="pm-box"></div>
+							<div class="pm-itemcont">
+								<div class="preview"></div>
+													<span class="upload">
+														<a href="javascript:;">
+															<input type="file"  name="_fm.b._0.pi" />
+														</a>
+													</span>
+								<input type="hidden" class="J_PicUrl" name="_fm.b._0.pic"  />
+								<input name="image_pos" type="hidden" value="3" />
+							</div>
+							<div class="pm-loading">
+								<div class="pm-loading-inner"> <img alt="" src="http://img03.taobaocdn.com/tps/i3/T1jBamXj4fXXXXXXXX-16-16.gif">上传中</div>
+							</div>
+							<div class="act"> <span class="moveleft" data-act="moveLeft">左移</span> <span class="moveright" data-act="moveRight">右移</span> <span class="del" data-act="del">删除</span> </div>
+						</li>
+						<li class="pm-item ">
+							<div class="pm-box"></div>
+							<div class="pm-itemcont">
+								<div class="preview"></div>
+													<span class="upload">
+														<a href="javascript:;">
+															<input type="file"  name="_fm.b._0.pi" />
+														</a>
+													</span>
+								<input type="hidden" class="J_PicUrl" name="_fm.b._0.pic"  />
+								<input name="image_pos" type="hidden" value="4" />
+							</div>
+							<div class="pm-loading">
+								<div class="pm-loading-inner"> <img alt="" src="http://img03.taobaocdn.com/tps/i3/T1jBamXj4fXXXXXXXX-16-16.gif">上传中</div>
+							</div>
+							<div class="act"> <span class="moveleft" data-act="moveLeft">左移</span> <span class="moveright" data-act="moveRight">右移</span> <span class="del" data-act="del">删除</span> </div>
+						</li>
+						<li class="pm-item ">
+							<div class="pm-box"></div>
+							<div class="pm-itemcont">
+								<div class="preview"></div>
+													<span class="upload">
+														<a href="javascript:;">
+															<input type="file"  name="_fm.b._0.pi" />
+														</a>
+													</span>
+								<input type="hidden" class="J_PicUrl" name="_fm.b._0.pic"  />
+								<input name="image_pos" type="hidden" value="5" />
+							</div>
+							<div class="pm-loading">
+								<div class="pm-loading-inner"> <img alt="" src="http://img03.taobaocdn.com/tps/i3/T1jBamXj4fXXXXXXXX-16-16.gif">上传中 </div>
+							</div>
+							<div class="act"> <span class="moveleft" data-act="moveLeft">左移</span> <span class="moveright" data-act="moveRight">右移</span> <span class="del" data-act="del">删除</span> </div>
+						</li>
+					</ul>
+				</div>
+																						<div class="tips-image">
+					图片至少上传1张（第1张不计图片空间容量），图片大小不能超过500K。
+				</div>
+			</div>
+		</div>
+		<div class="J_picTadget picTadget"></div>
+	</div>
+	<script type="text/data" id="J_ModItemPic">{"picTadgatSrc":"/sell/iframe/picListIframe.html","picUploadApi":"/auction/publish/uploadSingleImage.do","data":{"_tb_token_":"f0363e8f3b86f"}}
+	</script>
+	</div>
+</li>
+<li>
+	<div class="fl_l">
+		<div class="sku-style" id="J_SellProperties" style="overflow:hidden; *width:740px; margin-left:-12px; ">
+																																		<div class="sku-customlist" id="J_CustomSKUList"></div>
+							<div class="sku-custombar">
+					<button id="J_AddCustomSKU" type="button">
+						添加销售属性
+					</button>
+					<span class="sku-tip">销售属性总数最多4组</span>
+					<span class="sku-tip sku-countlimit">提示：销售属性的组合不要超过600组</span>
+				</div>
+						<div class="sku-mapwrapper" style="display: none;">
+				<div class="sku-map" id="J_SKUMapContainer"></div>
+			</div>
+		</div>
+		<input type="hidden" id="J_AvailableCustomCPV" name="allCustomedSaleCPVIds" value="-3:-2,-34;-4:-3,-35;-2:-4,-36" />
+		<script type="text/data" id="J_SKUConfig">
+			{"combo":{},"groups":[],"config":{"showPrice":true,"suitable":false,"MAX_PID":0,"MAX_VID":0}}
+		</script>
+		<!-- SKU结束 -->
+	</div>
+</li>
+<li class="clearfix">
+	<label class="li-label">行驶城市：&nbsp;&nbsp;<em class="red">*</em></label>
+	<div class="citylist-con">
+		<p class="citylist-desc">每行为1个投保城市。格式为投保城市，城市代码，城市全拼，城市首字母简拼，是否支持新车投保（1为支持、0为不支持）</p>
+		<p class="citylist-demo">样例：杭州，310000，hangzhou，hz，1；</p>
+		<p class="citylist-demo"><span></span>北京，110100，beijing，bj，0；</p>
+		<div class="citylist-ipt">
+			<textarea rows="15" id="J_citylist_textarea" required></textarea>
+		</div>
+		<ul class="citylist-err"></ul>
+	</div>
+</li>
+<li>
+	<label  class="li-label">商家编码：&nbsp;&nbsp;<em class="red">*</em></label>
+	<div class="fl_l">
+		<input type="text" required class="text w60" name="_fm.b._0.o" value="">
+		<em class="gray">录入一个sku项。如无SKU项，则录入该产品对应保险公司系统中的编码。</em>
+	</div>
+</li>
+<!-- 列表页信息 {{-->
+<li class="list-info">
+	<label class="li-label">列表页信息：&nbsp;&nbsp;<br /><em class="gray list-info-view">线上效果</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	<div class="list-info-div">
+		<p class="list-info-period">保险期间<em class="gray">（例如1年或7天、15天、30天）</em><br />
+			<input type="text" class="txt" name="_fm.b._0.sh" value="" /></p>
+		<table class="list-info-tb">
+			<tr>
+				<th class="list-info-num"></th>
+				<th class="list-info-type">保障类型<em class="gray">（最多支持20个中文）</em></th>
+				<th class="list-info-content">保障额度<em class="gray">（最多支持10个中文）</em></th>
+			</tr>
+			<tr>
+				<td class="list-info-num">1</td>
+				<td class="list-info-type"><input type="text" class="txt" maxlength="20" name="_fm.b._0.sho" value=""/></td>
+				<td class="list-info-content"><input type="text" class="txt" maxlength="10" name="_fm.b._0.show" value=""/></td>
+			</tr>
+			<tr>
+				<td class="list-info-num">2</td>
+				<td class="list-info-type"><input type="text" class="txt" maxlength="20" name="_fm.b._0.showi" value=""/></td>
+				<td class="list-info-content"><input type="text" class="txt" maxlength="10" name="_fm.b._0.showin" value=""/></td>
+			</tr>
+			<tr>
+				<td class="list-info-num">3</td>
+				<td class="list-info-type"><input type="text" class="txt" maxlength="20" name="_fm.b._0.showins" value=""/></td>
+				<td class="list-info-content"><input type="text" class="txt" maxlength="10" name="_fm.b._0.showinsd" value=""/></td>
+			</tr>
+			<tr>
+				<td class="list-info-num">4</td>
+				<td class="list-info-type"><input type="text" class="txt" maxlength="20" name="_fm.b._0.showinsi" value=""/></td>
+				<td class="list-info-content"><input type="text" class="txt" maxlength="10" name="_fm.b._0.showinsde" value=""/></td>
+			</tr>
+		</table>
+	</div>
+	<div class="list-info-viewbox"></div>
+</li>
+<!-- 列表页信息 }}-->
+<input type="hidden" value="1" name="_fm.i.1.m">
+	<input type="hidden" value="2" name="_fm.i.2.m">
+	<input type="hidden" value="4" name="_fm.i.4.m">
+<li>
+<label  class="li-label">投保信息：&nbsp;&nbsp;</label>
+<div class="t-div" id="J_t_div">
+<!--以下是投保人模块-->
+<table class="tb-info-table" cellpadding="0" cellspacing="0">
+	<thead>
+	<tr>
+		<td width="35%" class="td-c">
+			<input type="checkbox">
+			投保人模块
+		</td>
+		<td width="30%" align="center">注释</td>
+		<td width="35%"></td>
+	</tr>
+	</thead>
+	<tbody>
+	<input type="hidden" value="1" name="_fm.i.1.m">
+								<tr>
+				<td class="td-c">
+					<input type="checkbox" value="1001" name="_fm.i.1.c">
+					姓名
+										<input type="hidden" class="J_edit_val" name="_fm.i.1.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.1.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number" name="_fm.i.1.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="1002" name="_fm.i.1.c">
+					电子邮件
+										<input type="hidden" class="J_edit_val" name="_fm.i.1.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.1.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number" name="_fm.i.1.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="1003" name="_fm.i.1.c">
+					证件号码
+											<a href="javascript:void('定义显示项目')" hidefocus="true" class="J_edit_btn" data-list="身份证:1;护照:3;军官证:4;港台同胞证:5;其他:10;户口薄:11;士兵证:12;驾驶执照:13;返乡证:14;组织机构代码:15;港澳通行证:16;台湾通行证:17;">定义显示项目</a>
+										<input type="hidden" class="J_edit_val" name="_fm.i.1.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.1.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number" name="_fm.i.1.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="1004" name="_fm.i.1.c">
+					出生日期
+										<input type="hidden" class="J_edit_val" name="_fm.i.1.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.1.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number" name="_fm.i.1.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="1005" name="_fm.i.1.c">
+					性别
+										<input type="hidden" class="J_edit_val" name="_fm.i.1.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.1.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number" name="_fm.i.1.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="1006" name="_fm.i.1.c">
+					常住地区
+										<input type="hidden" class="J_edit_val" name="_fm.i.1.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.1.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number" name="_fm.i.1.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="1007" name="_fm.i.1.c">
+					固定电话
+										<input type="hidden" class="J_edit_val" name="_fm.i.1.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.1.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number" name="_fm.i.1.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="1008" name="_fm.i.1.c">
+					手机号码
+										<input type="hidden" class="J_edit_val" name="_fm.i.1.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.1.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number" name="_fm.i.1.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="1009" name="_fm.i.1.c">
+					地址
+										<input type="hidden" class="J_edit_val" name="_fm.i.1.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.1.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number" name="_fm.i.1.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="1010" name="_fm.i.1.c">
+					邮编
+										<input type="hidden" class="J_edit_val" name="_fm.i.1.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.1.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number" name="_fm.i.1.i" disabled></td>
+			</tr>
+						<tr>
+		<td colspan="3" align="center"><a href="#" onClick="return false" class="J_dic J_down" >数据字典▼</a></td>
+	</tr>
+																																																							</tbody>
+</table>
+<!--以下是被保人模块-->
+<table class="tb-info-table" cellpadding="0" cellspacing="0">
+	<thead>
+	<tr>
+		<td width="35%" class="td-c">
+			<div id="J_sub_mod">
+				<p>
+					<input type="checkbox" >
+					被保人模块
+					<input id="J_insmore" type="checkbox" name="_fm.b._0.mu" value="true" >
+					多被保险人
+					<input id="J_isone" type="checkbox" name="_fm.b._0.si" value="true" >
+					一份保单
+				</p>
+			</div>
+		</td>
+		<td width="30%" align="center">注释</td>
+		<td width="35%"></td>
+	</tr>
+	</thead>
+	<tbody>
+								<tr>
+				<td class="td-c">
+					<input type="checkbox" value="2001" name="_fm.i.2.c">
+					与投保人关系
+											<a href="javascript:void('定义显示项目')" hidefocus="true" class="J_edit_btn" data-list="本人:1;配偶:9;父母:10;子女:11;劳务关系:13;其他具有抚养或赡养关系的家庭成员或近亲属:12;其他:14;丈夫:2;妻子:3;父亲:4;母亲:5;儿子:6;女儿:7;父子:20;父女:21;母子:22;母女:23;兄弟:24;姊妹:25;兄妹:26;姐弟:27;祖孙:28;">定义显示项目</a>
+										<input type="hidden" class="J_edit_val" name="_fm.i.2.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.2.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.2.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="2002" name="_fm.i.2.c">
+					姓名
+										<input type="hidden" class="J_edit_val" name="_fm.i.2.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.2.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.2.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="2003" name="_fm.i.2.c">
+					电子邮件
+										<input type="hidden" class="J_edit_val" name="_fm.i.2.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.2.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.2.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="2004" name="_fm.i.2.c">
+					证件号码
+											<a href="javascript:void('定义显示项目')" hidefocus="true" class="J_edit_btn" data-list="身份证:1;护照:3;军官证:4;港台同胞证:5;其他:10;户口薄:11;士兵证:12;驾驶执照:13;返乡证:14;组织机构代码:15;港澳通行证:16;台湾通行证:17;">定义显示项目</a>
+										<input type="hidden" class="J_edit_val" name="_fm.i.2.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.2.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.2.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="2005" name="_fm.i.2.c">
+					出生日期
+										<input type="hidden" class="J_edit_val" name="_fm.i.2.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.2.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.2.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="2006" name="_fm.i.2.c">
+					性别
+										<input type="hidden" class="J_edit_val" name="_fm.i.2.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.2.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.2.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="2007" name="_fm.i.2.c">
+					常住地区
+										<input type="hidden" class="J_edit_val" name="_fm.i.2.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.2.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.2.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="2008" name="_fm.i.2.c">
+					固定电话
+										<input type="hidden" class="J_edit_val" name="_fm.i.2.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.2.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.2.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="2009" name="_fm.i.2.c">
+					手机号码
+										<input type="hidden" class="J_edit_val" name="_fm.i.2.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.2.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.2.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="2010" name="_fm.i.2.c">
+					地址
+										<input type="hidden" class="J_edit_val" name="_fm.i.2.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.2.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.2.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="2011" name="_fm.i.2.c">
+					邮编
+										<input type="hidden" class="J_edit_val" name="_fm.i.2.ctr" value="" disabled/>
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.2.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.2.i" disabled></td>
+			</tr>
+						<tr>
+		<td colspan="3" align="center"><a href="#" onClick="return false" class="J_dic J_down">数据字典▼</a></td>
+	</tr>
+																																																												</tbody>
+</table>
+<!--以下是其他信息-->
+<table class="tb-info-table" cellpadding="0" cellspacing="0">
+	<thead>
+	<tr>
+		<td width="35%" class="td-c">
+			<input type="checkbox" >
+			其他信息
+		</td>
+		<td width="30%" align="center">注释</td>
+		<td width="35%"></td>
+	</tr>
+	</thead>
+	<tbody>
+								<tr>
+				<td class="td-c">
+					<input type="checkbox" value="4001" name="_fm.i.4.c">
+					是否邮寄保单
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.4.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.4.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="4002" name="_fm.i.4.c">
+					是否邮寄发票
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.4.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.4.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="4003" name="_fm.i.4.c">
+					邮寄地址
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.4.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.4.i" disabled></td>
+			</tr>
+											<tr>
+				<td class="td-c">
+					<input type="checkbox" value="4004" name="_fm.i.4.c">
+					邮寄邮编
+				</td>
+				<td class="td-i">
+					<span class="zs-span gray"></span>
+					<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+													<span style="display:none" class="J_zs_input">
+														<input type="text" name="_fm.i.4.ct" disabled>
+														<button class="short-btn-gray J_ok_btn" type="button">
+															确认
+														</button>
+														<button class="short-btn-gray J_cancel_btn" type="button">
+															取消
+														</button>
+													</span>
+				</td>
+				<td class="td-n"><input type="number"  name="_fm.i.4.i" disabled></td>
+			</tr>
+						<tr>
+		<td colspan="3" align="center"><a href="#" onClick="return false" class="J_dic J_down">数据字典▼</a></td>
+	</tr>
+																									</tbody>
+</table>
+<!--以下是受益人-->
+<table class="tb-info-table" cellpadding="0" cellspacing="0">
+	<thead>
+	<tr>
+		<td width="35%" class="td-c">
+			<input type="checkbox" name="_fm.b._0.b" value="true" >
+			受益人模块
+		</td>
+		<td width="30%" align="center"></td>
+		<td width="35%"></td>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td class="td-c">
+			<input class="J_benefit" type="radio" value="false" name="_fm.b._0.be" >
+			法定受益人
+			<input class="J_benefit" type="radio" value="true" name="_fm.b._0.be" >
+			指定受益人
+		</td>
+		<td class="td-i">
+		</td>
+		<td class="td-n"></td>
+	</tr>
+	</tbody>
+</table>
+<!--以下是保险生效日期-->
+<table class="tb-info-table" cellpadding="0" cellspacing="0">
+	<thead>
+	<tr>
+		<td width="35%" class="td-c"><span style="visibility: hidden;"><input type="checkbox" name="_fm.b._0.e" checked="checked"></span>&nbsp;保险生效日期</td>
+		<td width="30%" align="center">注释</td>
+		<td width="35%"></td>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td class="td-c">
+			<input type="radio" class="J_date_radio" name="_fm.b._0.ef" value="2" checked="checked">
+			投保成功后第
+			<input type="text" class="w35 text ml5" name="_fm.b._0.af" value="" disabled>
+			天零时生效
+		</td>
+		<td class="td-i">
+			<span class="zs-span gray"></span>
+			<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+											<span style="display:none" class="J_zs_input">
+												<input type="text" name="_fm.b._0.com" disabled>
+												<button class="short-btn-gray J_ok_btn" type="button">
+													确认
+												</button>
+												<button class="short-btn-gray J_cancel_btn" type="button">
+													取消
+												</button>
+											</span>
+		</td>
+		<td class="td-n"></td>
+	</tr>
+	<tr class="J_custom_date">
+		<td class="td-c">
+			<input type="radio" class="J_date_radio" name="_fm.b._0.ef" value="4" >
+			用户自定义生效时间
+			<div class="pos_date">
+				<p>
+					<span class="ml28">最早可生效</span>
+					<input type="text" class="text w50" name="_fm.b._0.mi" value="" disabled>
+					天 至 最迟生效
+					<input type="text" class="text w50" name="_fm.b._0.ma" value="" disabled>
+					天
+				</p>
+			</div>
+		</td>
+		<td class="td-i">
+			<span class="zs-span gray"></span>
+			<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+											<span style="display:none" class="J_zs_input">
+												<input type="text" name="_fm.b._0.com" disabled>
+												<button class="short-btn-gray J_ok_btn" type="button">
+													确认
+												</button>
+												<button class="short-btn-gray J_cancel_btn" type="button">
+													取消
+												</button>
+											</span>
+		</td>
+		<td class="td-n"></td>
+	</tr>
+	<tr>
+		<td class="td-c" colspan="3">
+					</td>
+	</tr>
+	</tbody>
+</table>
+<!--健康告知页-->
+<table class="tb-info-table" cellpadding="0" cellspacing="0">
+	<thead>
+	<tr>
+		<td width="100%" class="td-c">
+			<input type="checkbox" name="_fm.b._0.h" value="true" >
+			健康告知页
+		</td>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td class="td-c">
+			<div class="health-note">
+				<span class="one-line-tips">每行为一个问题，@开头的为上一问题的注解</span>
+				<em class="gray">样例：‘您是否患有、被怀疑患有或接受治疗过以下一种或几种疾病？</em>
+				<em class="gray">@如：反复头痛、眩晕、胸痛、咳嗽咯血、气喘、腹痛、便血。</em>
+			</div>
+			<p>
+				<textarea class="health-textarea" name="_fm.b._0.he"></textarea>
+			</p>
+		</td>
+	</tr>
+	</tbody>
+</table>
+</div>
+</li>
+<script src="http://a.tbcdn.cn/app/dp/insure/autopub/js/word-count.js"></script>
+<li class="dec-title">
+	<label  class="li-label">险种描述：&nbsp;&nbsp;<em class="red">*</em></label>
+	<div class="kissy-editor fl_l">
+		<textarea id="kissy_textarea_d" required style="width:643px;height:400px" name="_fm.b._0.co"></textarea>
+		 	</div>
+	<div id="J_ins_img_space" class="ins-img-space"></div>
+</li>
+<li class="notice-title">
+	<label  class="li-label">重要告知：&nbsp;&nbsp;<em class="red">*</em></label>
+	<div class="kissy-editor fl_l">
+		<textarea id="kissy_textarea_n" required name="_fm.b._0.a" style="width:643px;height:150px"></textarea>
+		 	</div>
+</li>
+<li>
+			<label class="li-label">签约险种：&nbsp;&nbsp;<em class="red">*</em></label>
+			<div class="fl_l">
+				<select name="_fm.b._0.sig" required>
+					<option value="">请选择</option>
+					<option value="1" >淘宝内部测试保险</option>
+				</select>
+				<em class="gray">选择该产品在协议中的险种名称</em>
+			</div>
+		</li>
+		<li>
+			<label class="li-label">公司险种ID：</label>
+			<div class="fl_l">
+				<input name="_fm.b._0.pr" value="" class="text" />
+			</div>
+		</li>
+		<li class="clearfix">
+          <label  class="li-label vhidden">退保信息：&nbsp;&nbsp;</label>
+          <div class="t-div" id="J_t_div_1"> 
+			<!--以下是退保信息-->
+            <table class="tb-info-table" cellpadding="0" cellspacing="0">
+              <thead>
+                <tr>
+                  <td width="35%" class="td-c"><input type="checkbox">
+                    退保信息</td>
+                  <td width="30%" align="center">注释</td>
+                  <td width="35%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+					<td class="td-c">
+						<input type="checkbox" value="4004" name="_fm.i.4.c">
+						退保金额
+					</td>
+					<td class="td-i">
+						<span class="zs-span gray"></span>
+						<a href="#" onClick="return false" class="mod-a" style="display:inline-block"></a>
+						<span style="display:none" class="J_zs_input">
+							<input type="text" name="_fm.i.4.ct" disabled>
+							<button class="short-btn-gray J_ok_btn" type="button">
+								确认
+							</button>
+							<button class="short-btn-gray J_cancel_btn" type="button">
+								取消
+							</button>
+						</span>
+					</td>
+					<td class="td-n"><input type="number"  name="_fm.i.4.i" disabled></td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center"><a href="#" onClick="return false" class="J_dic J_down">数据字典▼</a></td>
+				</tr>
+              </tbody>
+            </table>
+			</div>
+		</li>
+<li class="cancel-title">
+	<label  class="li-label">退保声明：&nbsp;&nbsp;</label>
+	<div class="kissy-editor fl_l">
+		<textarea id="kissy_textarea_c" name="_fm.b._0.a" style="width:643px;height:150px"></textarea>
+	</div>
+</li>
+</ul>
+<input name="_fm.b._0.ha" value="true" type="hidden" />
+<div class="submit-div"><input type="submit" class="ic-btn" value="发布"></div>
+</section>
+</article>
+</article>
+</form>
+<!-- 主体部分end -->
+				<!-- from vmcommon -->
+<div id="footer">
+	<div class="g_foot">
+    <div class="g_foot-ali">
+        <a href="http://page.china.alibaba.com/shtml/about/ali_group1.shtml">阿里巴巴集团</a> <b>|</b>
+        <a href="javascript:void(0)" target="_self" class="g_foot-nohover">阿里巴巴网络：</a>
+        <a href="http://www.alibaba.com/">国际站</a>
+        <a href="http://china.alibaba.com/">中文站</a>
+        <a href="http://seller.aliexpress.com/">全球速卖通</a> <b>|</b>
+        <a href="http://www.taobao.com/?id=shouye_taobao">淘宝网</a>
+        <b>|</b>
+        <a href="http://www.tmall.com/">天猫</a>
+        <b>|</b>
+        <a href="http://www.etao.com/">一淘</a>
+        <b>|</b>
+        <a href="http://www.aliyun.com/">阿里云</a>
+        <b>|</b>
+        <a href="http://www.yahoo.com.cn/">中国雅虎</a>
+        <b>|</b>
+        <a href="http://www.alipay.com/">支付宝</a>
+        <b>|</b>
+        <a href="http://ju.taobao.com/">聚划算</a>
+        <b>|</b>
+        <span class="footer-more" id="J_FooterMore">
+          <span class="footer-more-panel">
+            <a href="http://www.aliresearch.com/">阿里研究</a><br>
+            <a href="http://www.alihz.com/">阿里会展</a><br>
+            <a href="http://www.hitao.com/">嗨淘网</a><br>
+          </span>
+          <a href="javascript:void(0);" target="_self" class="footer-more-trigger">更多 <s class="arrow arrow-d"></s></a>
+        </span>
+    </div>
+    <div class="g_foot-nav">
+        <a href="http://www.taobao.com/about/">关于淘宝</a>
+        <a href="http://www.taobao.com/about/partners.php">合作伙伴</a>
+        <a href="http://pro.taobao.com/">营销中心</a>
+        <a href="http://service.taobao.com/support/main/service_route.htm">联系客服</a>
+        <a href="http://open.taobao.com/">开放平台</a>
+        <a href="http://www.taobao.com/about/join.php">诚征英才</a>
+        <a href="http://www.taobao.com/about/contact.php">联系我们</a>
+        <a href="http://www.taobao.com/sitemap.php">网站地图</a>
+        <a href="http://www.taobao.com/about/copyright.php">法律声明</a>
+        <span>&copy; 2013 Taobao.com 版权所有</span>
+    </div>
+    <span class="g_foot-toy"></span>
+    <span class="g_foot-line"></span>
+</div>
+<script>
+// hover effect for ie6
+(function(){
+		
+		if(-[1,]) return;
+    	
+    	var ie6FootHover = document.getElementById("J_FooterMore");
+		
+        ie6FootHover.onmouseenter=function() {
+            this.className+=" footer-more-hover";
+        }
+        ie6FootHover.onmouseleave=function() {
+            this.className=this.className.replace(new RegExp(" footer-more-hover\\b"), "");
+        }
+})();
+
+
+</script>
+
+<style>
+.g_foot{
+  width: 960px;
+  margin: 0 auto;
+  font: 12px/1.5 tahoma,arial,宋体b8b\4f53;
+  padding: 7px 0 9px;
+  color: #b0b0b0;
+  text-align: left !important;
+  position: relative;
+  clear:both;
+}
+.g_foot a{
+  margin: 0 4px;
+  color: #3e3e3e;
+  text-decoration:none;
+}
+.g_foot a:hover{
+  color: #F60;
+  text-decoration: underline;
+
+}
+.g_foot-ali{
+  margin-right: 100px;
+  padding-left: 0;
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 8px;
+  height: 18px;
+}
+.g_foot-nohover{
+  cursor: default;
+}
+.g_foot-nohover:hover{
+  color:#3e3e3e !important;
+  text-decoration:none !important;
+}
+.g_foot-ali a,.g_foot-ali b{
+  float: left;
+
+}
+.g_foot-ali b {
+  margin: 0 4px;
+  color:#d3d3d3;
+  font-weight: normal;
+  *margin-top:-1px;
+  margin-top:-1px \0/;
+}
+.g_foot-nav{
+  margin-top: 8px;
+  line-height: 20px;
+}
+.g_foot-nav span{
+  margin-left: 50px;
+}
+.g_foot-toy{
+  position: absolute;
+  background: url(http://img01.taobaocdn.com/tps/i1/T1MMPaXkNjXXaXezbh-48-70.png) no-repeat;
+  _background: url(http://img01.taobaocdn.com/tps/i1/T1XgzaXX0kXXaXezbh-48-70.png) no-repeat;
+  width: 69px;
+  height: 100px;
+  display: block;
+  right: 0px;
+  top:0px;
+}
+/* IE9 only */
+:root .g_foot-toy {
+    right:-20px\9; 
+ } 
+.g_foot-line{
+  display: none;
+  position: absolute;
+  background: url(http://img01.taobaocdn.com/tps/i1/T1I_56Xl0wXXXXXXXX-104-1.png) no-repeat;
+  width: 104px;
+  height: 1px;
+  right: 45px;
+  top:33px;
+}
+
+.footer-more {
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+  padding-top: 1px;
+  width: 82px;
+  float: left;
+  *top:-1px;
+  top:-2px \0/;
+
+}
+.footer-more-trigger {
+  position: absolute;
+
+  padding: 6px 11px 4px 14px;
+  width: 37px;
+  line-height: 1.3;
+  border: 1px solid #fff;
+  left:-12px;
+  top:-5px;
+}
+
+.footer-more-trigger .arrow{
+    position: absolute;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    border: dashed 4px;
+}
+.footer-more-trigger .arrow-d {
+  border-color: #666 transparent transparent transparent;
+  border-top-style: solid;
+  right: 12px;
+  top: 11px;
+}
+.footer-more-panel {
+  text-align: left;
+  position: absolute;
+  right: 26px;
+  bottom: -90px;
+  padding: 7px 3px 2px 2px;
+  border: 1px solid #C5C5C5;
+  width: 57px;
+  background: 
+  white;
+  line-height: 1.9;
+  display: none;
+}
+.footer-more-panel a {
+  float: none;
+  margin-right: 3px;
+}
+.footer-more-hover .footer-more-trigger,.footer-more:hover .footer-more-trigger {
+  border-color: #c5c5c5;
+  background: #fff;
+  border-bottom: 0;
+}
+.footer-more-hover .footer-more-panel,.footer-more:hover .footer-more-panel  {
+  display: block;
+}
+
+.footer-more-hover .footer-more-trigger .arrow-d,.footer-more:hover .footer-more-trigger .arrow-d {
+  -moz-transform: rotate(180deg);
+  -moz-transform-origin: 50% 30%;
+  -o-transform: rotate(180deg);
+  -o-transform-origin: 50% 30%;
+  -webkit-transform: rotate(180deg);
+  -webkit-transform-origin: 50% 30%;
+  transform: rotate(180deg);
+  transform-origin: 50% 30%;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation = 2);
+  *top: 8px;
+  top:8px \0/;
+}
+</style>
+	<div id="server-num">baoxianfront228102.pre.cm3.tbsite.net</div>
+</div>
+<!-- end vmcommon -->
+
+				</body>
+				</html>

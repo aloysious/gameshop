@@ -1,0 +1,59 @@
+/**
+ * ------------------------------------
+ * CitySuggestion Skin CSS
+ * ------------------------------------
+ */
+ /* Main */
+.yui3-autocitysuggestion-container {position:relative;width:990px;margin:0 auto;z-index:999;}
+.yui3-autocitysuggestion {position:absolute;}
+.yui3-autocitysuggestion-hovered {border:1px solid #aaa !important;}
+.yui3-autocitysuggestion-focused {border:1px solid #959595 !important;}
+
+ /* 结果列表 */
+.yui3-autocitysuggestion .yui3-ac-highlight {color:#333;font-weight:bold;}
+.yui3-autocitysuggestion .yui3-ac-hidden {visibility:hidden;*zoom:1;*left:-9999px !important;}
+.yui3-autocitysuggestion .yui3-aclist-content {border:1px solid #959595;background:#fff;box-shadow:1px 1px 4px #888888;-moz-box-shadow:1px 1px 4px #888888;-ms-box-shadow:1px 1px 4px #888888;-webkit-box-shadow:1px 1px 4px #888888;-o-box-shadow:1px 1px 4px #888888;}
+.yui3-autocitysuggestion .yui3-aclist-keynote {color:#666;padding:3px 5px;border-bottom:1px dashed #ccc;margin-bottom:3px;}
+.yui3-autocitysuggestion .yui3-aclist-list {margin-bottom:3px;}
+.yui3-autocitysuggestion .yui3-aclist-item {padding:4px 5px;overflow:hidden;outline:none;vertical-align:bottom;}
+.yui3-autocitysuggestion .yui3-aclist-item-hover {background:#f0f0f0;}
+.yui3-autocitysuggestion .yui3-aclist-item-active {background:#aaa;color:#fff;}
+.yui3-autocitysuggestion .yui3-aclist-noresult {padding:4px 5px;}
+.yui3-autocitysuggestion .yui3-aclist-noresult .yui3-ac-highlight {color:#ff4400;}
+.yui3-autocitysuggestion .yui3-aclist-cityname {float:left;}
+.yui3-autocitysuggestion .yui3-aclist-py {float:right;margin-left:10px;}
+
+ /* 推荐城市 */
+.yui3-autocitysuggestion .yui3-acsuggest {padding:4px 0;}
+.yui3-autocitysuggestion .yui3-acsuggest-note {color:#666;padding:0 5px 3px;margin-top:3px;}
+.yui3-autocitysuggestion .yui3-acsuggest-note .note-city {color:#999;padding-left:16px;margin-top:4px;background:url("http://img01.taobaocdn.com/tps/i1/T13L9AXcV0XXXl1UA_-11-12.png") left center no-repeat;}
+.yui3-autocitysuggestion .yui3-acsuggest-tab {height:21px;padding:0 5px;margin-top:5px;border-bottom:1px solid #469c1f;}
+.yui3-autocitysuggestion .yui3-acsuggest-tab-item {padding:0 5px;background-color:#f0f0f0;height:20px;line-height:20px;border:1px solid #959595;margin-right:3px;margin-bottom:-1px;position:relative;cursor:pointer;float:left;}
+.yui3-autocitysuggestion .yui3-acsuggest-tab .yui3-mytabview-tab-selected {border-bottom:1px solid #fff;background-color:#fff;}
+.yui3-autocitysuggestion .yui3-acsuggest-content {clear:both;padding:5px;}
+.yui3-autocitysuggestion .yui3-acsuggest-panel {display:none;}
+.yui3-autocitysuggestion .yui3-acsuggest .yui3-mytabview-panel-show {display:block;}
+.yui3-autocitysuggestion .yui3-acsuggest dl {padding-left:15px;position:relative;_zoom:1;}
+.yui3-autocitysuggestion .yui3-acsuggest dt {position:absolute;left:2px;top:3px;color:#333;}
+.yui3-autocitysuggestion .yui3-acsuggest dd {display:inline-block;width:58px;padding:2px 0;text-align:center;margin-right:4px;*display:inline;*zoom:1;}
+.yui3-autocitysuggestion .yui3-acsuggest dd a {text-decoration:none;outline:none;color:#666;}
+.yui3-autocitysuggestion .yui3-acsuggest dd a:link,
+.yui3-autocitysuggestion .yui3-acsuggest dd a:visited,
+.yui3-autocitysuggestion .yui3-acsuggest dd a:active {color:#666;outline:none;}
+.yui3-autocitysuggestion .yui3-acsuggest dd a:hover {background-color:#aaa;color:#fff;text-decoration:none;outline:none;}
+.yui3-autocitysuggestion .yui3-acsuggest .no-suggest {text-align:center;padding:5px 0 1px;color:#ff4400;}
+
+ /* 翻页 */
+.yui3-autocitysuggestion .yui3-acpaginator {overflow:hidden;padding:5px;border-top:1px dashed #ccc;*zoom:1;}
+.yui3-autocitysuggestion .yui3-acpaginator a,
+.yui3-autocitysuggestion .yui3-acpaginator a:link,
+.yui3-autocitysuggestion .yui3-acpaginator a:visited,
+.yui3-autocitysuggestion .yui3-acpaginator a:hover,
+.yui3-autocitysuggestion .yui3-acpaginator a:active {text-decoration:none;color:#333;}
+.yui3-autocitysuggestion .yui3-acpaginator .yui3-acpaginator-disabled,
+.yui3-autocitysuggestion .yui3-acpaginator .yui3-acpaginator-disabled:link,
+.yui3-autocitysuggestion .yui3-acpaginator .yui3-acpaginator-disabled:visited,
+.yui3-autocitysuggestion .yui3-acpaginator .yui3-acpaginator-disabled:hover,
+.yui3-autocitysuggestion .yui3-acpaginator .yui3-acpaginator-disabled:active {color:#bbb;text-decoration:none;}
+.yui3-autocitysuggestion .yui3-acpaginator .yui3-acpaginator-prev {float:left;}
+.yui3-autocitysuggestion .yui3-acpaginator .yui3-acpaginator-next {float:right;}

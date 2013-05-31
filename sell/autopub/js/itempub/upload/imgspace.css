@@ -1,0 +1,28 @@
+/*image space*/
+.picTadget {
+    border: 1px solid #d5e4fa;
+    background: #f5f9ff;
+    font-size: 0;
+    margin-bottom: 10px;
+}
+.picFrame {
+    width: 638px;
+}
+.imgSpaceBar {
+    height: 26px;
+    line-height: 26px;
+    color: #3366cc;
+    font-size: 12px;
+    overflow: hidden;
+}
+.picTadget .imgSpaceBar a {
+    cursor: pointer;
+    background-position: 22px -50px;
+    display: inline-block;
+    padding: 0 22px 0 15px;
+    background-color: #dde8f9;
+}
+.picTadget .imgSpaceBar a.expanded {
+    background-position: 22px -66px;
+    background-color: #f5f9ff;
+}

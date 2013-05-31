@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>保险详情页面 - 淘宝网</title>
+<!-- 头部资源 -->
+<!--#include virtual="../../../insure/autopub/demo/layout/assets.html"--><!-- 头部资源 end -->
+<!-- 本页面独立资源 -->
+<link rel="stylesheet" href="http://a.tbcdn.cn/app/dp/insure/autopub/css/detail.css"/>
+</head>
+<body class="ipcard">
+<!-- 淘宝公用吊顶 --> 
+<!--#include virtual="../../../insure/autopub/demo/layout/site-nav.html"--><!-- 淘宝公用吊顶 end --> 
+<script type="text/javascript">
+INS.use('item-detail',"menubuttoncss", "node-focusmanager", "node-event-simulate", "overlay",function(Y){
+
+});
+</script> 
+<!-- 主体部分 -->
+<article class="main-content">
+  <div class="shop-basic">
+    <div class="hd">
+      <h3><span>商家信息</span></h3>
+    </div>
+    <div class="bd">
+      <div class="shop-promise">
+        <p><img src="http://img01.taobaocdn.com/tps/i1/T1k_CnXktIXXXXXXXX-175-41.png" alt="淘宝商城，品质保证"></p>
+        <ul>
+          <li><a target="_blank" href=" http://www.tmall.com/go/chn/mall2010/promise.php?spm=1103Gkyx.2-1NvNS.d-59Q5Oj#ZPBZ" data-spm-anchor-id="1103Gkyx.2-1NvNS.d-59Q5Oj">正品保障</a></li>
+          <li><a target="_blank" href=" http://www.tmall.com/go/chn/mall2010/promise.php?spm=1103Gkyx.2-1NvNS.d-59Q5Oj#TGFP" data-spm-anchor-id="1103Gkyx.2-1NvNS.d-59Q5Oj">提供发票</a></li>
+          <li class="last" id="J_7day"><a target="_blank" href=" http://www.tmall.com/go/chn/mall2010/promise.php?spm=1103Gkyx.2-1NvNS.d-59Q5Oj#QTTH" data-spm-anchor-id="1103Gkyx.2-1NvNS.d-59Q5Oj">七天退换</a></li>
+        </ul>
+      </div>
+      <div class="shop-intro">
+        <div class="extend">
+          <ul>
+            <li>
+              <label>公 司 名：</label>
+              阳光人寿保险股份有限公司 </li>
+            <li class="locus">
+              <label>所 在 地：</label>
+              北京 </li>
+            <li class="shopkeeper">
+              <label>商&nbsp;&nbsp;&nbsp;&nbsp;家：</label>
+              <a href=" #" data-spm-anchor-id="1103Gkyx.2-1NvNS.d-59Q5Oj">阳光人寿旗舰店</a> </li>
+            <li>
+              <label>客&nbsp;&nbsp;&nbsp;&nbsp;服：</label>
+              <span class="J_WangWang" data-nick="阳光人寿保险"></span>
+	<script>
+		KISSY.use('core',function(S){
+			TB.Global.init();
+	        });
+	</script><a target="_blank" href="http://www.taobao.com/webww/?ver=1&&touid=cntaobao%E5%B9%BF%E4%B8%9C%E8%81%94%E9%80%9A%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97&siteid=cntaobao&status=2&portalId=&gid=&itemsId=" class="ww-inline ww-online" title="点此可以直接和卖家交流选好的宝贝，或相互交流网购体验，还支持语音视频噢。"></a></span> </li>
+          </ul>
+        </div>
+        <div class="other"> <a target="_blank" title="进入掌柜的店铺" href="#" class="enter" data-spm-anchor-id="1103Gkyx.2-1NvNS.d-59Q5Oj"><span style="display:none;">进入掌柜的店铺</span></a> <a data-height="460" data-width="440" data-closebtn="true" mercury:params="id=57723063&amp;itemid=57723063&amp;itemtype=0&amp;ownerid=ad6998bc8a6803f4d18dce93ce307bd7&amp;scjjc=5&amp;_tb_token_=e54638151b33e" data-url="http://favorite.taobao.com/popup/add_collection.htm?id=57723063&amp;itemid=57723063&amp;itemtype=0&amp;ownerid=ad6998bc8a6803f4d18dce93ce307bd7&amp;scjjc=2&amp;_tb_token_=016d07e637e3" class="tb-fav J_PopupTrigger collection xshop_sc J_TDialogTrigger J_TokenSign" data-info="param=SCCP_2_57723063&amp;countUrl=http://count.tbcdn.cn/counter3&amp;mecuryUrl=http://favorite.taobao.com/collect_item_relation---57723063-0-.htm">收藏本店铺</a> </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+  //sku不同价格不同的json
+ 
+ var sku_num=3;
+ var rebate_num = 0.814;
+ 
+ var bargain_url="http://tbskip.taobao.com/json/show_buyer_list.htm?item_id_str=13523334539&seller_id=747143122&bid_page=1&page_size=15&is_start=false&item_type=b&ends=1329484639000&starts=1328879839000&item_id=13523334539&user_tag=236023840&x_id=&old_quantity=100&seller_num_id=747143122&isFromDetail=yes&callback=mycallback&sold_total_num=244";
+ 
+ //var detail_url = "http://dsc.daily.taobaocdn.net:8883/i3/150/000/1500006216517/T1MF0cXbXyXXcWeqbX.desc|var^desc;sign^5481e460b1c365288b69f54c9dce7207;lang^gbk;t^1329357974 ";
+ 
+ /* var valItemInfo =  {
+    "skuMap": {
+        "-1:-1;-2:-1;": {
+            "skuId": "30002406690",
+            "price": "100.00",
+            "stock": "1",
+			"info":"说明1111111111111111111111111"
+        },
+        "-1:-1;-2:-2;": {
+            "skuId": "30002406721",
+            "price": "200.00",
+            "stock": "2",
+			"info":"说明22222222222222222222222222"
+        },
+        "-1:-2;-2:-1;": {
+            "skuId": "30002406722",
+            "price": "300.00",
+            "stock": "3",
+			"info":"说明3333333333333333333"
+        },
+        "-1:-2;-2:-2;": {
+            "skuId": "30002406723",
+            "price": "400.00",
+            "stock": "4",
+			"info":"说明444444444444444444444444444"
+        }
+    }
+}
+*/
+    var valItemInfo =  {
+    "skuMap": {
+        "-1:-1;-2:-1;-3:-1;": {
+            "skuId": "111",
+            "price": "200.00",
+            "stock": "1",
+			"info":"说明1111111111111111111111111"
+        },
+		 "-1:-1;-2:-1;-3:-2;": {
+            "skuId": "222",
+            "price": "100.00",
+            "stock": "1",
+			"info":"说明2222"
+        },
+       
+	   "-1:-1;-2:-2;-3:-1;": {
+            "skuId": "333",
+            "price": "300.00",
+            "stock": "1",
+			"info":"说明3333"
+        },
+       
+	    
+	   "-1:-1;-2:-2;-3:-2;": {
+            "skuId": "444",
+            "price": "400.00",
+            "stock": "1",
+			"info":"说明4444"
+        },
+	   
+	   
+	   "-1:-2;-2:-1;-3:-1;": {
+            "skuId": "555",
+            "price": "500.00",
+            "stock": "1",
+			"info":"说明555"
+        },
+	    
+	   "-1:-2;-2:-1;-3:-2;": {
+            "skuId": "666",
+            "price": "100.00",
+            "stock": "1",
+			"info":"说明666"
+        },
+		 
+	   "-1:-2;-2:-2;-3:-1;": {
+            "skuId": "777",
+            "price": "100.00",
+            "stock": "1",
+			"info":"说明777"
+        },
+	   "-1:-2;-2:-2;-3:-2;": {
+            "skuId": "88",
+            "price": "100.00",
+            "stock": "1",
+			"info":"说明888"
+        }
+	   
+    }
+}
+  
+  </script>
+  
+  
+  <!-- 商品详情 -->
+  <article class="detail">
+    <h3 class="detail-hd">Apple/苹果 iPhone 4代（16G）智能触屏手机 黑白 iphone4 wifi</h3>
+    <div class="detail-bd clearfix">
+      <section class="property">
+        <ul class="meta">
+         <li><div class="xj-skin">
+							<p>
+							<strong>此宝贝已下架</strong>
+							<span>（<a title="为什么" href="http://service.taobao.com/support/knowledge-1102683.htm" target="_blank"><img alt="为什么" src="http://img03.taobaocdn.com/tps/i3/T1Tj4wXkVhXXXXXXXX-12-12.png"></a>）</span>
+							</p>
+							<p>
+							1: 联系商家咨询
+							</p>
+							<p>
+							2: 你可以
+							<a href="http://wt.taobao.com/">进入掌柜店铺</a>
+							，或<a href="http://wt.taobao.com/">查看更多</a>
+							</p>
+						</div></li>
+         
+          <li><span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格：</span><strong class="price">49999.00</strong></li>
+          
+           <li class="sale-out"><span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格：</span><em class="scx" id="J_OLD_PRI">39.00</em></li>
+           <li class="sale-out"><span>促&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;销：</span><em class="cxj" id="J_CX_PRI">32.00</em>元</li>
+          
+          
+          <li class="sale-out"><span>累积售出：</span><em>327</em>件</li>
+          <li class="pay-service">
+            <dl class="pay-ms clearfix">
+              <dt>付款方式：</dt>
+              <dd>
+                <ul class="">
+                  <li class="credit-card"><a href=""><i></i>支持信用卡付款</a></li>
+                  <li class="hide"><a href="">快捷支付</a></li>
+                  <li class="hide"><a href="">网银支付</a></li>
+                  <li class="hide"><a href="">找人支付</a></li>
+                  <li class="hide"><a href="">消费卡</a></li>
+                  <li class="hide"><a href="">网点支付</a></li>
+                  <li class="hide"><a href="">支付宝金额</a></li>
+                </ul>
+              </dd>
+            </dl>
+            <p class="toggler-holder"> <a href="#" title="显示所有信息" class="toggler down" id="J_Toggler"><i></i></a> </p>
+          </li>
+          <li class="color"> <span>保&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;额：</span>
+            <ul class="r-block skin clearfix">
+              <li class="" data-value="-1:-1"><a href="">5万</a><i></i></li>
+              <li data-value="-1:-2"><a href="">10万</a></li>
+            </ul>
+          </li>
+          <li class="color"> <span>家庭人数：</span>
+            <ul class="r-block skin clearfix">
+              <li class="" data-value="-2:-1"><a href="">两大人一孩子</a><i></i></li>
+              <li data-value="-2:-2"><a href="">一大人十个孩子</a></li>
+            </ul>
+          </li>
+          
+           <li class="color"> <span>人数：</span>
+            <ul class="r-block skin clearfix">
+              <li class="" data-value="-3:-1"><a href="">两大人一孩子</a><i></i></li>
+              <li data-value="-3:-2"><a href="">一大人十个孩子</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <div class="bx-det-div">提供出行途中意外伤害的保险提供出行途中意外伤害的保险提供出行途中意外伤害的保险提供出行途中意外伤害的保险提供出行途中意外伤害的保险</div>
+          </li>
+          <li><span>份&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数：</span><em class="c6">1份</em></li>
+          <li class="clearfix"><span class="buy-num-label">数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量：</span><div class="buy-num-wrapper"><input type="number" step="1" min="1" max="10" class="buy-num-ipt" /> 件<em class="gray">（最多购买10份）</em><br /><p class="buy-num-err hide">请填写购买份数！</p></div></li>
+          <li><span>保险期间：</span><em class="c6">100天</em></li>
+          <li><form><input type="submit" class="lktb_a" value="" id="J_submit"><input type="hidden" value="" id="J_SKU_I"></form></li>
+        </ul>
+      </section>
+      <section class="gallery">
+        <div class="booth pic"> <a href="#"><img id="J_mainpic" src="http://img01.taobaocdn.com/bao/uploaded/i1/T1BTGwXjpgXXcWQdEW_022841.jpg_310x310.jpg"></a> </div>
+        <ul id="J_thumpic" class="thumb pic">
+          <li><a href="#"><img src="http://img02.taobaocdn.com/imgextra/i2/T1sXagXl8pXXcXMO2b_124452.jpg_40x40.jpg"></a></li>
+          <li class="sel"><a href="#"><img src="http://img01.taobaocdn.com/bao/uploaded/i1/T1BTGwXjpgXXcWQdEW_022841.jpg_40x40.jpg"></a></li>
+        </ul>
+       <p class="action">
+		<input type="hidden" value='{"client_id":"1131"}' id="J_ShareParam"><a class="share mr40" onclick="shareItem(this); return false;" data-shareparam='{"type":"item","itemid":"14130143617","comment":"默认评论","props":{"shareType":"item","itemid":"14130143617"}}' href="javascript:void(0)" id="J_share" data-sharename="_SHARE0"><i></i>分享给好友</a>
+	<script>
+function shareItem(item){
+TS.require('Share', '2.0', function() {
+new TS.Share(item).show('');
+});
+}
+</script>
+<script src="http://a.tbcdn.cn/apps/snstaoshare/widget/ts/ts-min.js"></script>
+	<a class="favourite mr5" target="_blank" href="javascript:void(0)" data-url="http://favorite.taobao.com/popup/add_collection.htm?id=14130143617&amp;itemtype=1&amp;scjjc=1&amp;_tb_token_=016d07e637e3"><i></i>收藏该商品</a>(人气<em data-api="http://count.tbcdn.cn/counter3?keys=ICCP_1_14130143617" data-key="ICCP_1_14130143617" id="J_ReviewCount">2578</em>)</p>
+      </section>
+    </div>
+  </article>
+  
+  <!-- 商品描述 -->
+  <article class="desc">
+    <ul class="tab-bar clearfix">
+      <li class="sel">宝贝详情</li>
+      <li>成交记录(<em class="cblue">98</em>件)</li>
+    </ul>
+    <div class="tab-pannel">
+      <div class="msg"><span class="tips">淘宝商城卖家承诺：您付款之后，如果卖家延迟发货，可以获得商品价格10%（不大于100元）的赔付金，<a target="_blank" href="http://service.tmall.com/support/tmall/knowledge-1126800.htm">详见</a>。</span></div>
+     
+     
+      <section class="J_goods-detail">
+     <ul class="attributes-list clearfix">
+
+		<li title="三古油画 客厅卧室走廊纯手...">产品名称：三古油画 客厅卧室走廊纯手...</li>    <li title="&nbsp;三古">品牌:&nbsp;三古</li><li title="&nbsp;花卉">图案:&nbsp;花卉</li><li title="&nbsp;整套价格">组合形式:&nbsp;整套价格</li><li title="&nbsp;SG-Y12002">货号:&nbsp;SG-Y12002</li><li title="&nbsp;净总长1.00米&nbsp;净总长1.20米&nbsp;净总长1.35米&nbsp;净总长1.60米&nbsp;净总长1.85米&nbsp;净总长2.20米">长*宽（CM）:&nbsp;净总长1.00米&nbsp;净总长1.20米&nbsp;净总长1.35米&nbsp;净总长1.60米&nbsp;净总长1.85米&nbsp;净总长2.20米</li><li title="&nbsp;其他类型">类型:&nbsp;其他类型</li>        </ul>
+     
+     商品详情
+      
+      </section>
+      <section id="deal-record" class="J_bargain-detail hide"><span class="wait-img"><img src="http://img02.taobaocdn.com/tps/i2/T16WJqXaXeXXXXXXXX-32-32.gif"></span></section>
+    </div>
+  </article>
+</article>
+<!-- 主体部分end --> 
+<!-- 淘宝公用底部 --> 
+<!--#include file="layout/footer.html"--><!-- 淘宝公用底部 end -->
+
+</body>
+</html>
+
+
+
+<!-- 以下需要插入到页头相关位置 --> 
+<!-- 以下需要插入到页头相关位置 --> 
+<!-- 以下需要插入到页头相关位置 --> 
+<!-- 以下需要插入到页头相关位置 --> 
+<!-- 以下需要插入到页头相关位置 --> 
+<!-- 以下需要插入到页头相关位置 --> 
+<!-- 以下需要插入到页头相关位置 --> 
+<!-- 以下需要插入到页头相关位置 --> 
+<!-- 以下需要插入到页头相关位置 --> 
+<!-- 以下需要插入到页头相关位置 --> 
+<!-- 以下需要插入到页头相关位置 --> 
+
+<div id="shop-info">
+  <div class="main-info">
+    <h3 class="shop-title"><a href="http://boshiwa.tmall.com" target="_blank">博士蛙旗舰店</a></h3>
+    <p class="shop-status"><a href="http://www.tmall.com/go/chn/mall2010/promise.php#PPZX" target="_blank" class="i">品牌直销</a>
+    	 <span class="J_WangWang" data-nick="阳光人寿保险"></span><a target="_blank" href="hhttp://www.taobao.com/webww/?ver=1&&touid=cntaobao%E5%B9%BF%E4%B8%9C%E8%81%94%E9%80%9A%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97&siteid=cntaobao&status=2&portalId=&gid=&itemsId=" class="ww-inline ww-online" title="点此可以直接和卖家交流选好的宝贝，或相互交流网购体验，还支持语音视频噢。"></a></span></p>
+  </div>
+  <div class="extra-info">
+    <div class="bd">
+  
+      <div class="extend">
+        <ul>
+          <li class="shopkeeper">
+            <label>掌&#12288;&#12288;柜：</label>
+            <a href="http://rate.taobao.com/user-rate-67bbb94af883dc97cb0ca31b3815c707.htm">博士蛙旗舰店</a></li>
+          <li>
+            <label>客&#12288;&#12288;服：</label>
+             <span class="J_WangWang" data-nick="阳光人寿保险"></span>
+	<script>
+		KISSY.use('core',function(S){
+			TB.Global.init();
+	        });
+	 </script>       
+	        <a target="_blank" href="http://www.taobao.com/webww/?ver=1&amp;&amp;touid=cntaobao%E5%8D%9A%E5%A3%AB%E8%9B%99%E6%97%97%E8%88%B0%E5%BA%97&amp;siteid=cntaobao&amp;status=2&amp;portalId=&amp;gid=13884192244&amp;itemsId=" class="ww-inline ww-online" title="点此可以直接和卖家交流选好的宝贝，或相互交流网购体验，还支持语音视频噢。"></a></span></li>
+          <li>
+            <label>服务电话：</label>
+            400-800-0808
+          </li>
+          <li>
+            <label>公 司 名：</label>
+            有限公司</li>
+          <li class="locus">
+            <label>所 在 地：</label>
+            ,  上海</li>
+        </ul>
+      </div>
+      <div class="other"><a data-closebtn="true" data-height="260" data-width="440" class="J_PopupTrigger collection xshop_sc J_TDialogTrigger J_TokenSign" mercury:params="id=57300295&amp;itemid=57300295&amp;itemtype=0&amp;ownerid=67bbb94af883dc97cb0ca31b3815c707&amp;_tb_token_=QaPrIPYumk" data-url="http://favorite.taobao.com/popup/add_collection.htm?id=57300295&amp;itemid=57300295&amp;itemtype=0&amp;ownerid=67bbb94af883dc97cb0ca31b3815c707&amp;scjjc=2&amp;_tb_token_=eeebe5eba7fa5" style="width: 84px;" id="xshop_collection_href"><span>收藏本店铺</span></a></div>
+    </div>
+    <div class="opt"><b id="J_InfoTrigger">展开/收起</b></div>
+  </div>
+</div>
+
+
+
+
+

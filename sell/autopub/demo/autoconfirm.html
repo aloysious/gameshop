@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lte9 lte8"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9 lte9"> <![endif]-->
+<!--[if gt IE 9]><html class="no-js"><![endif]-->
+<!--[if !IE]><!--><html><!--<![endif]-->
+    <head>
+        <meta charset="gbk">
+        <title>车险服务特色 – 淘宝车险</title>
+        <meta name="description" content="车险 淘宝 价格便宜 理赔无忧 服务大额支付">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!-- 响应式设计代码 -->
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link type="image/x-icon" href="http://www.taobao.com/favicon.ico" rel="shortcut icon" />
+        <script>window.g_config={appId:10,toolbar:false};</script>
+        <!--[if lt IE 9]><script src="http://a.tbcdn.cn/app/dp/s/html5/js/??html5shiv-min.js"></script><![endif]-->
+        <link rel="stylesheet" href="http://a.tbcdn.cn/??p/global/1.0/global-min.css,app/dp/s/html5/css/common-min.css,app/dp/insure/framework/css/framework.css" />
+        <script src="http://a.tbcdn.cn/??s/kissy/1.3.0/seed-min.js,p/global/1.0/global-min.js,app/dp/s/html5/js/modernizr-v2.5.3-min.js,s/yui/3.5.1/build/yui-base/yui-base.js,app/dp/insure/framework/js/loader/3.5.1/loader.js"></script>
+        <link rel="stylesheet" href="http://a.tbcdn.cn/app/dp/insure/autopub/css/autoconfirm.css" />
+        <script src="http://a.tbcdn.cn/app/dp/insure/autopub/js/addmojo.js"></script>
+    </head>
+    <body>
+        <header class="atc-hd clearfix">
+            <h1>
+                <a href="http://baoxian.taobao.com" target="_top" title="淘宝保险" class="ins-logo"></a>
+                <span class="company-logo" title="平安车险"></span>
+            </h1>
+            <p class="atc-flow">
+                <em>选择险种</em>
+                <strong>投保信息确认</strong>
+                <em class="atc-flow-last">支付</em>
+            </p>
+        </header>
+        <script>
+            var Validator_JSON = {};
+            window.tmpOrderId = '1111111';
+            window['CAS_CFG'] = {
+                holder: {},
+                insured: {},
+                other: {}
+            };
+        </script>
+        <article class="atc-bd" role="content">
+            <!-- 错误提示框 {{-->
+            <div id="submit_error" class="error-box">
+                <a name="error_info" id="error_info" class="err-info info-mod"></a>
+                <div class="err-content">
+                    <h1 class="err-title">以下信息未填或填写有误</h1>
+                    <ol class="err-list" id="J_ErrMsg">
+                        <li>投保人姓名：请填写投保人姓名。</li>
+                        <li>投保人Email：请填写投保人Email。</li>
+                        <li>投保人证件号码：请正确填写投保人证件号码。</li>
+                        <li>投保人出生日期：请选择投保人出生日期。</li>
+                        <li>投保人性别：请填写投保人性别。</li>
+                        <li>投保人手机号码：请填写投保人手机号码。</li>
+                        <li>常住城市：请填写投保人常住省份。</li>
+                        <li>常住城市：请填写投保人常住城市。</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- 错误提示框 }}-->
+            <form method="get" action="#" id="J_atc_form">
+                <section class="atc-sec insured-info">
+                    <h2 class="sec-hd">被保险人信息</h2>
+                    <div class="sec-bd">
+                        <p class="sec-note">被保险人通常就是车主，理赔将支付给被保险人</p>
+                        <ul class="widget-list" data-list="insured">
+                            <li type="text" widget="name" class="name-widget widget-item widget-required">
+                                <label for="insurant_name" class="widget-label">姓名：</label>
+                                <div class="item-con">
+                                    <input type="text" name="insurant_name" id="insurant_name" maxlength="32" class="ipt-txt" />
+                                </div>
+                            </li>
+                            <li type="text" widget="email" class="email-widget widget-item widget-required">
+                                <label for="insurant_email" class="widget-label">电子邮件：</label>
+                                <div class="item-con">
+                                    <input type="text" name="insurant_email" id="insurant_email" class="ipt-txt" /><span class="note">填写常用电子邮件，用来接收电子保单</span>
+                                </div>
+                            </li>
+                            <li type="card" widget="card" class="card-widget widget-item widget-required">
+                                <label for="insurant_card_no" class="widget-label">证件号码：</label>
+                                <div class="item-con">
+                                    <select name="insurant_card_type" id="insurant_card_type">
+                                        <option value="1" selected="selected">身份证</option>
+                                    </select>
+                                    <input type="text" name="insurant_card_no" id="insurant_card_no" class="ipt-txt" />
+                                </div>
+                            </li>
+                            <li type="checkbox" widget="country" class="country-widget widget-item widget-required">
+                                <span class="widget-label">国家：</span>
+                                <div class="item-con">
+                                    <span class="ib cbx-con"><input type="checkbox" name="insurant_country" id="insurant_country_cn" class="ipt-cbx" value="1" /><label for="insurant_country_cn">中国</label></span>
+                                    <span class="ib cbx-con"><input type="checkbox" name="insurant_country" id="insurant_country_us" class="ipt-cbx" value="2" /><label for="insurant_country_us">美国</label></span>
+                                </div>
+                            </li>
+                            <li type="date" widget="birthday" class="birthday-widget widget-item widget-required">
+                                <label for="insurant_birthday" class="widget-label">出生日期：</label>
+                                <div class="item-con">
+                                    <input type="text" name="insurant_birthday" id="insurant_birthday" class="ipt-txt" />
+                                </div>
+                            </li>
+                            <li type="radio" widget="sex" class="sex-widget widget-item widget-required">
+                                <span class="widget-label">性别：</span>
+                                <div class="item-con">
+                                    <span class="ib rdo-con"><input type="radio" name="insurant_sex" id="insurant_sex_m" class="ipt-rdo" value="1" /><label for="insurant_sex_m">男</label></span>
+                                    <span class="ib rdo-con"><input type="radio" name="insurant_sex" id="insurant_sex_f" class="ipt-rdo" value="2" /><label for="insurant_sex_f">女</label></span>
+                                </div>
+                            </li>
+                            <li type="cascade" widget="resident" class="resident-widget cascade-widget widget-item widget-required">
+                                <label for="insurant_resident_provice" class="widget-label">常住地区：</label>
+                                <div class="item-con">
+                                    <select name="insurant_resident_provice" id="insurant_resident_provice"></select>
+                                    <select name="insurant_resident_city" id="insurant_resident_city"></select>
+                                </div>
+                            </li>
+                            <li type="areaphone" widget="areaphone" class="areaphone-widget widget-item widget-required">
+                                <label for="insurant_areaphone_area" class="widget-label">固定电话：</label>
+                                <div class="item-con">
+                                    <input type="text" name="insurant_areaphone_area" id="insurant_areaphone_area" maxlength="4" class="ipt-txt areaphone-area" /> - <input type="text" name="insurant_areaphone_no" id="insurant_areaphone_no" maxlength="8" class="ipt-txt areaphone-no" />
+                                </div>
+                            </li>
+                        </ul>
+                        <script>
+                            //级联组件数据
+                            window['CAS_CFG']['insured']['resident'] = '北京_110000$北京市_110100#天津_120000$天津市_120100#河北省_130000$石家庄市_130100|唐山市_130200|秦皇岛市_130300|邯郸市_130400|邢台市_130500|保定市_130600|张家口市_130700|承德市_130800|沧州市_130900|廊坊市_131000|衡水市_131100#山西省_140000$太原市_140100|大同市_140200|阳泉市_140300|长治市_140400|晋城市_140500|朔州市_140600|晋中市_140700|运城市_140800|忻州市_140900|临汾市_141000|吕梁市_141100#内蒙古自治区_150000$呼和浩特市_150100|包头市_150200|乌海市_150300|赤峰市_150400|通辽市_150500|鄂尔多斯市_150600|呼伦贝尔市_150700|巴彦淖尔市_150800|乌兰察布市_150900|兴安盟_152200|锡林郭勒盟_152500#辽宁省_210000$沈阳市_210100|大连市_210200|鞍山市_210300|抚顺市_210400|本溪市_210500|丹东市_210600|锦州市_210700|营口市_210800|阜新市_210900|辽阳市_211000|盘锦市_211100|铁岭市_211200|朝阳市_211300|葫芦岛市_211400#吉林省_220000$长春市_220100|吉林市_220200|四平市_220300|辽源市_220400|通化市_220500|白山市_220600|松原市_220700|白城市_220800|桦甸市_220282|延吉市_222401|敦化市_222403#黑龙江省_230000$哈尔滨市_230100|齐齐哈尔市_230200|鸡西市_230300|鹤岗市_230400|双鸭山市_230500|大庆市_230600|伊春市_230700|佳木斯市_230800|牡丹江市_231000|黑河市_231100|绥化市_231200#上海_310000$上海市_310100#江苏省_320000$南京市_320100|无锡市_320200|徐州市_320300|常州市_320400|苏州市_320500|南通市_320600|连云港市_320700|淮安市_320800|盐城市_320900|扬州市_321000|镇江市_321100|泰州市_321200|宿迁市_321300|江阴市_320281|宜兴市_320282|常熟市_320581|张家港市_320582|昆山市_320583|吴江市_320584|太仓市_320585#浙江省_330000$杭州市_330100|宁波市_330200|温州市_330300|慈溪市_330282|余姚市_330281|象山县_330225|宁海县_330226|嘉兴市_330400|湖州市_330500|绍兴市_330600|金华市_330700|衢州市_330800|台州市_331000|丽水市_331100|奉化市_330283|舟山市_330900#安徽省_340000$合肥市_340100|芜湖市_340200|蚌埠市_340300|淮南市_340400|马鞍山市_340500|淮北市_340600|铜陵市_340700|安庆市_340800|黄山市_341000|滁州市_341100|阜阳市_341200|宿州市_341300|六安市_341500|亳州市_341600|池州市_341700|宣城市_341800#福建省_350000$福州市_350100|厦门市_350200|莆田市_350300|三明市_350400|泉州市_350500|漳州市_350600|南平市_350700|龙岩市_350800|宁德市_350900#江西省_360000$南昌市_360100|景德镇市_360200|萍乡市_360300|九江市_360400|新余市_360500|鹰潭市_360600|赣州市_360700|吉安市_360800|宜春市_360900|抚州市_361000|上饶市_361100#山东省_370000$济南市_370100|青岛市_370200|淄博市_370300|枣庄市_370400|东营市_370500|烟台市_370600|潍坊市_370700|济宁市_370800|泰安市_370900|威海市_371000|日照市_371100|莱芜市_371200|临沂市_371300|德州市_371400|聊城市_371500|滨州市_371600|菏泽市_371700|章丘市_370181#河南省_410000$郑州市_410100|开封市_410200|洛阳市_410300|平顶山市_410400|安阳市_410500|鹤壁市_410600|新乡市_410700|焦作市_410800|濮阳市_410900|许昌市_411000|漯河市_411100|三门峡市_411200|南阳市_411300|商丘市_411400|信阳市_411500|周口市_411600|驻马店市_411700|济源市_410881#湖北省_420000$武汉市_420100|黄石市_420200|十堰市_420300|宜昌市_420500|襄樊市_420600|鄂州市_420700|荆门市_420800|孝感市_420900|荆州市_421000|黄冈市_421100|咸宁市_421200|随州市_421300|恩施市_422801|仙桃市_429004|潜江市_429005#湖南省_430000$长沙市_430100|株洲市_430200|湘潭市_430300|衡阳市_430400|邵阳市_430500|岳阳市_430600|常德市_430700|张家界市_430800|益阳市_430900|郴州市_431000|永州市_431100|怀化市_431200|娄底市_431300|吉首市_433101#广东省_440000$广州市_440100|韶关市_440200|深圳市_440300|珠海市_440400|汕头市_440500|佛山市_440600|江门市_440700|湛江市_440800|茂名市_440900|肇庆市_441200|惠州市_441300|梅州市_441400|汕尾市_441500|河源市_441600|阳江市_441700|清远市_441800|东莞市_441900|中山市_442000|潮州市_445100|揭阳市_445200|云浮市_445300#广西壮族自治区_450000$南宁市_450100|柳州市_450200|桂林市_450300|梧州市_450400|北海市_450500|防城港市_450600|钦州市_450700|贵港市_450800|玉林市_450900|百色市_451000|贺州市_451100|河池市_451200#海南省_460000$海口市_460100|三亚市_460200#重庆_500000$重庆市_500100#四川省_510000$成都市_510100|自贡市_510300|攀枝花市_510400|泸州市_510500|德阳市_510600|绵阳市_510700|广元市_510800|遂宁市_510900|内江市_511000|乐山市_511100|南充市_511300|眉山市_511400|宜宾市_511500|广安市_511600|达州市_511700|雅安市_511800|资阳市_512000|西昌市_513401#贵州省_520000$都匀市_520100|六盘水市_520200|遵义市_520300|安顺市_520400|铜仁地区_522200|毕节地区_522400#云南省_530000$昆明市_530100|曲靖市_530300|玉溪市_530400|保山市_530500|昭通市_530600|丽江市_530700|思茅市_530800|临沧市_530900|楚雄彝族自治州_532300|红河哈尼族彝族自治州_532500|文山壮族苗族自治州_532600|西双版纳傣族自治州_532800|大理白族自治州_532900|德宏傣族景颇族自治州_533100#陕西省_610000$西安市_610100|铜川市_610200|宝鸡市_610300|咸阳市_610400|渭南市_610500|延安市_610600|汉中市_610700|榆林市_610800|安康市_610900|商洛市_611000#甘肃省_620000$兰州市_620100|嘉峪关市_620200|金昌市_620300|白银市_620400|天水市_620500|武威市_620600|张掖市_620700|平凉市_620800|酒泉市_620900|庆阳市_621000|定西市_621100|陇南市_621200#青海省_630000$西宁市_630100|海东地区_632100|海西蒙古族藏族自治州_632800#宁夏回族自治区_640000$银川市_640100|石嘴山市_640200|吴忠市_640300|固原市_640400|中卫市_640500#新疆维吾尔自治区_650000$乌鲁木齐市_650100|克拉玛依市_650200|吐鲁番地区_652100|哈密地区_652200|昌吉回族自治州_652300|博尔塔拉蒙古自治州_652700|巴音郭楞蒙古自治州_652800|阿克苏地区_652900|克孜勒苏柯尔克孜自治州_653000|喀什地区_653100|和田地区_653200|伊犁哈萨克自治州_654000|塔城地区_654200|阿勒泰地区_654300';
+                        </script>
+                    </div>
+                </section>
+                <section class="atc-sec holder-info">
+                    <h2 class="sec-hd">投保人信息</h2>
+                    <div class="sec-bd">
+                        <p class="same-with-insured">
+                            <input type="checkbox" name="same_holder" value="1" id="J_same_holder" /><label for="J_same_holder">同被保险人</label>
+                        </p>
+                        <ul class="widget-list" data-list="holder">
+                            <li type="text" widget="name" class="name-widget widget-item widget-required">
+                                <label for="holder_name" class="widget-label">姓名：</label>
+                                <div class="item-con">
+                                    <input type="text" name="holder_name" id="holder_name" maxlength="32" class="ipt-txt" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="atc-sec other-info">
+                    <h2 class="sec-hd">行驶证车主信息</h2>
+                    <div class="sec-bd">
+						<p class="same-with-insured">
+                            <input type="checkbox" name="same_other" value="1" id="J_same_other" /><label for="J_same_other">同被保险人</label>
+                        </p>
+                        <ul class="widget-list" data-list="other">
+                            <li type="text" widget="name" class="name-widget widget-item widget-required">
+                                <label for="owner_name" class="widget-label">姓名：</label>
+                                <div class="item-con">
+                                    <input type="text" name="holder_name" id="owner_name" maxlength="32" class="ipt-txt" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="atc-sec deliver-info">
+                    <h2 class="sec-hd">配送信息</h2>
+                    <div class="sec-bd">
+						<p class="sec-note">在您支付成功后，服务专员将按此地址为您上门递送保单和发票</p>
+                        <p class="same-with-insured">
+                            <input type="checkbox" name="same_deliver" value="1" id="J_same_deliver" /><label for="J_same_deliver">同被保险人</label>
+                        </p>
+						<ul class="widget-list" data-list="deliver">
+                            <li type="text" widget="name" class="name-widget widget-item widget-required">
+                                <label for="deliver_name" class="widget-label">收件人姓名：</label>
+                                <div class="item-con">
+                                    <input type="text" name="deliver_name" id="deliver_name" maxlength="32" class="ipt-txt" />
+                                </div>
+                            </li>
+                            <li type="text" class="mobile-widget widget-item widget-required" widget="mobile">
+                                <label class="widget-label" for="DeliverMobile">手机号码：</label>
+                                <div class="item-con">
+                                    <input type="text" class="ipt-txt" maxlength="11" id="DeliverMobile" name="DeliverMobile">
+                                </div>
+                            </li>
+                            <li type="select" widget="town" class="town-widget widget-item widget-required">
+                                <label for="townCityCode" class="widget-label">收件人地区：</label>
+                                <div class="item-con">
+                                    <div class="deliver-address ins-g">
+                                        <span class="ins-u">北京市</span>
+                                        <span class="ins-u">朝阳区</span>
+                                        <span class="ins-u">
+                                            <select name="townCityCode" id="townCityCode">
+                                                <option value="大望路">大望路</option>
+                                                <option value="安贞门">安贞门</option>
+                                                <option value="国贸">国贸</option>
+                                            </select>
+											<input type="hidden" name="townCityName" id="townCityName" />
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+							<li type="text" widget="streetaddress" class="streetaddress-widget widget-item widget-required">
+                                <label for="deliverAddress" class="widget-label">街道地址：</label>
+                                <div class="item-con">
+                                    <input type="text" id="deliverAddress" name="deliverAddress" class="ipt-txt" /><span class="note">不需要重复填写省市区</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="atc-sec period-info">
+                    <h2 class="sec-hd">保险期限</h2>
+                    <div class="sec-bd">
+                        <p>商业险生效时间：自 2013-02-23日 0时 至 2014-02-23日 24时 止</p>
+                        <p>交强险生效时间：自 2013-02-23日 0时 至 2014-02-23日 24时 止</p>
+                    </div>
+                </section>
+                <section class="atc-sec biz-info">
+                    <h2 class="sec-hd">商业险保险责任及保费</h2>
+                    <div class="sec-bd">
+                        <table class="sec-table">
+                            <tr>
+                                <th class="tb-responsibility">保险责任</th>
+                                <th class="tb-premium">保险金额/赔偿金额（元）</th>
+                                <th class="tb-price">保险费小计（元）</th>
+                            </tr>
+                            <tr>
+                                <td class="tb-responsibility">车辆损失险</td>
+                                <td class="tb-premium">14820</td>
+                                <td class="tb-price">1164.08</td>
+                            </tr>
+                            <tr>
+                                <td class="tb-responsibility">车辆损失险</td>
+                                <td class="tb-premium">14820</td>
+                                <td class="tb-price">1164.08</td>
+                            </tr>
+                            <tr>
+                                <td class="tb-responsibility">车辆损失险</td>
+                                <td class="tb-premium">14820</td>
+                                <td class="tb-price">1164.08</td>
+                            </tr>
+                            <tr>
+                                <td class="tb-responsibility">车辆损失险</td>
+                                <td class="tb-premium">14820</td>
+                                <td class="tb-price">1164.08</td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+                <section class="atc-sec force-info">
+                    <h2 class="sec-hd">交强险和车船税保险责任保费</h2>
+                    <div class="sec-bd">
+                        <table class="sec-table">
+                            <tr>
+                                <th class="tb-responsibility">保险责任</th>
+                                <th class="tb-premium">保险金额/赔偿金额（元）</th>
+                                <th class="tb-price">保险费小计（元）</th>
+                            </tr>
+                            <tr>
+                                <td class="tb-responsibility">交强险</td>
+                                <td class="tb-premium">14820</td>
+                                <td class="tb-price">1164.08</td>
+                            </tr>
+                        </table>     
+                    </div>
+                </section>
+                <section class="atc-sec total-info">
+                    <table class="total-table">
+                        <tr>
+                            <td class="biz-price">
+                                <div>
+                                    <p>商业险</p>
+                                    <p><strong>3218.00</strong> 元</p>
+                                </div>
+                            </td>
+                            <td class="total-symbol">
+                                <strong>+</strong>
+                            </td>
+                            <td class="force-price">
+                                <div>
+                                    <p>交强险（含车船税）</p>
+                                    <p><strong>3218.00</strong> 元</p>
+                                </div>
+                            </td>
+                            <td class="total-symbol">
+                                <strong>=</strong>
+                            </td>
+                            <td class="taobao-price">
+                                <div>
+                                    <p><del>市场价 5300.00 元</del></p>
+                                    <p><strong>淘宝价 <em>3200.00</em> 元</strong></p>
+                                </div>
+                            </td>
+                            <td class="submit-form">
+                                <button title="提交表单" type="submit" class="submit-btn">提交表单</button>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </form>
+        </article>
+        <script>
+            INS.use('autoconfirm');
+        </script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lte9 lte8"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9 lte9"> <![endif]-->
+<!--[if gt IE 9]><html class="no-js"><![endif]-->
+<!--[if !IE]><!--><html><!--<![endif]-->
+	<head>
+		<meta charset="gbk">
+		<title>激活说明 – 淘宝保险</title>
+		<meta name="description" content="淘宝 保险 淘宝保险">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!-- 响应式设计代码 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link type="image/x-icon" href="http://www.taobao.com/favicon.ico" rel="shortcut icon" />
+		<script>window.g_config={appId:10,toolbar:false};</script>
+		<!-- html5reset and css3 -->
+		<link rel="stylesheet" href="http://a.tbcdn.cn/??p/global/1.0/global-min.css,app/dp/s/html5/css/common-min.css,app/dp/insure/framework/css/framework.css"/>
+		<!--[if lt IE 9]><script src="http://a.tbcdn.cn/app/dp/s/html5/js/??html5shiv-min.js,modernizr-v2.5.3-min.js"></script><![endif]-->
+		<!--[if gte IE 9]><!--><script src="http://a.tbcdn.cn/app/dp/s/html5/js/modernizr-v2.5.3-min.js"></script><!--<![endif]-->
+		<script src="http://a.tbcdn.cn/??s/kissy/1.2.0/seed-min.js,p/global/1.0/global-min.js,s/yui/3.4.1/build/yui/yui-min.js,app/dp/insure/framework/js/ins-global.js"></script>
+	</head>
+	<body>
+		<!-- 淘宝公用吊顶 {{-->
+        <!--#include virtual="../../framework/demo/site-nav.html"-->
+        <!-- 淘宝公用吊顶 }}-->
+        <!-- 保险公用头部 {{-->
+        <!--#include virtual="../../framework/demo/header.html"-->
+		
+		<style>
+			.activate-page {width:988px;margin:20px auto 40px;border:1px solid #dcdcdc;padding:25px 0 20px;color:#1d1d1d;}
+			.activate-page h1 {font-size:24px;text-align:center;}
+			.activate-page section {width:660px;margin:35px auto 40px;}
+			.activate-page h2 {font-size:14px;color:#48a023;padding:0 15px;margin-bottom:8px;background:url("http://img04.taobaocdn.com/tps/i4/T1surxXnVfXXa9hgfr-5-5.png") left center no-repeat;}
+			.activate-page h2.bless {background:none;}
+			.activate-page p {padding:0 15px;}
+		</style>
+		<article class="activate-page">
+			<h1>激活说明</h1>
+			<section>
+				<h2>附带保险为什么需要激活</h2>
+				<p>保险是需要输入投保人和被保人的信息的，买家可以确认给谁买和相关信息后再来激活。</p>
+				<p>有的买家由于购买保险的时候，并没有确定从哪天开始使用保险（也就是让保险生效的日期）那么可以确定后，再来激活。</p>
+			</section>
+			<section>
+				<h2>我不想买了，怎么办？</h2>
+				<p>好办，在订单列表中点击“退款”，就可以将该订单关闭，相应的款项也会退回到亲的支付宝帐户中哦！</p>
+			</section>
+			<section>
+				<h2>如果我买的主产品退掉了怎么办？</h2>
+				<p>亲，如果您的主产品退掉了，并且附带保险没有激活的情况下，保险的费用会直接退回到您的支付宝帐号中的。</p>
+				<p>如果您的保险已经激活，亲，很可惜，我们不会被同时退掉您的保单并返回您的资金。具体是否可以退，如何退，亲打开您的旺旺，直接咨询保险公司客服就O了！</p>
+			</section>
+			<section>
+				<h2>那我只关闭保险订单会影响我所购买的主产品的交易吗？</h2>
+				<p>不会的亲。</p>
+			</section>
+			<section>
+				<h2 class="bless">最后，祝您购物愉快哦！！！ : )</h2>
+			</section>
+		</article>
+		
+		<!-- 保险公用底部 {{-->
+        <!--#include virtual="../../framework/demo/footer.html"-->
+        <!-- 保险公用底部 }}-->
+	</body>
+</html>

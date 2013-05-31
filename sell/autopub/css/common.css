@@ -1,0 +1,223 @@
+/*
+ *-------------------------------------------------
+ * Common.css
+ * 共用样式 
+ * -------------------------------------------------
+ */
+#decSaleTopBanner{display:none}/*去掉主站吊顶logo*/
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden}.clearfix{display:inline-block}/* Hides from IE-mac */
+* html .clearfix {height:1%}.clearfix {display:block}/* End hide from IE-mac */
+section,article,aside,header,footer,nav,dialog,figure{display:block;}
+.tabrow{display:table-row;}
+i{font-style:normal}
+a{cursor:pointer;}
+a,a:link,a:hover{color: #1863B4;}
+.fl{float:left}
+.fr{float:right}
+.hide {display:none !important;}
+.tl{text-align:left;}
+.tr{text-align:right;}
+.tc{text-align:center;}
+.vm{vertical-align:middle;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.fn {font-weight:normal;}
+.fb {font-weight:bold;}
+.zoom{zoom:1;}
+/** padding值 **/
+.p6{padding:6px}
+.p10{padding:10px}
+.pt5 {padding-top:5px}
+.pt10{padding-top:10px}
+.pt20 {padding-top:20px}
+.pt30 {padding-top:30px}
+.pl10 {padding-left:10px}
+.pl15 {padding-left:15px;}
+.pl20 {padding-left:20px}
+.pl30 {padding-left:30px}
+.pb10{padding-bottom:10px}
+.pb20{padding-bottom:20px}
+.pb30{padding-bottom:30px}
+.pb40{padding-bottom:40px}
+.pb50{padding-bottom:50px}
+.pr15 {padding-right:15px;}
+.pr10 {padding-right:10px}
+.pr20 {padding-right:20px}
+/** margin值 **/
+figure {margin:0;}
+.mt5 {margin-top:5px;}
+.mt10 {margin-top:10px}
+.mt20 {margin-top:20px}
+.mt15 {margin-top:15px}
+.ml5{margin-left:5px;}
+.ml10 {margin-left:10px}
+.ml20{margin-left:20px}
+.ml30{margin-left:30px}
+.ml40{margin-left:40px}
+.mb5 {margin-bottom:5px;}
+.mb10 {margin-bottom:10px}
+.mb20 {margin-bottom:20px}
+.mr5{margin-right:5px;}
+.mr10{margin-right:10px}
+.mr20 {margin-right:20px}
+.mr30 {margin-right:30px}
+.mr40 {margin-right:40px}
+.mr50 {margin-right:50px}
+/** width 值 **/
+.w50{width:50px}
+.w60{width:60px}
+.w120{width:120px}
+.w260{width:260px}
+.w300{width:300px}
+.w360{width:360px}
+/** 字体颜色 **/
+.orange{color:#f26422}
+.blue{color:#275ca0}
+.gray{color:#969696}
+.required{color:#f26422}
+.red{color:red}
+
+.line-through{text-decoration:line-through}
+.cue{color:#969696;margin-left:3px;font-size:12px;font-weight:normal;font-style:normal;}
+
+/** 最小高度 **/
+.min-h-300{height:auto !important;height:400px;min-height:400px;}
+
+.blank-place{text-align:center;padding:60px 0px !important;}
+.blank-place span{padding:5px 0px 5px 20px;background:url("http://img02.taobaocdn.com/tps/i2/T1MwiuXgxkXXXXXXXX-16-632.gif") 0 -145px no-repeat;}
+
+/** pic hacks **/
+.pic a {
+    *display: block;
+    *font-family: Arial; 
+    *line-height: 1; 
+}
+
+.tb-s30 a { *font-size: 26px; }
+.tb-s40 a,.thumb li a { *font-size: 35px; }
+.tb-s50 a { *font-size: 44px; }
+.tb-s60 a { *font-size: 52px; }
+.tb-s70 a { *font-size: 61px; }
+.tb-s80 a { *font-size: 70px;  }
+.tb-s110x90 a { *font-size: 79px; }
+.tb-s120 a { *font-size: 105px; }
+.tb-s160 a { *font-size: 140px; }
+.tb-s220 a { *font-size: 192px; }
+.tb-s310 a { *font-size: 271px; }
+/*-------------------------------------------------
+ * Message
+ * -------------------------------------------------
+ */
+.yui3-toggle,.question,.msg .shadow,.msg .error, .msg .stop, .msg .alert, .msg .attention,.msg .tips, .msg .ok, .msg .notice, .msg .question, .msg .help, .msg .small-help,.msg .small-yellow-help,.msg b{color:#353132;background:url("http://img02.taobaocdn.com/tps/i2/T1MwiuXgxkXXXXXXXX-16-632.gif") no-repeat;border:1px solid #ddd;padding:2px 10px 2px 23px;display:inline-block;*display:inline;*zoom:1;position:relative}
+.msg{position:relative}
+.msg .shadow{padding:8px 10px 8px 31px; border-color:#fecb00; background-color:#fefed8;border-radius:3px;-moz-border-radius:3px;box-shadow:2px 2px 2px #707070;-webkit-box-shadow:2px 2px 2px #707070;-moz-box-shadow:2px 2px 2px #707070;
+filter:progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color="#707070"); 
+}
+.msg .error{background-position:11px 9px}
+.msg .tip{background-position: 3px -197px;padding:2px 10px 2px 23px}
+.msg .stop { background-position:3px -47px; border-color:#ff8080; background-color:#fff2f2}
+.msg .alert { background-position:3px -97px; border-color:#ff8c40; background-color:#fff5f6}
+.msg .attention { background-position:3px -147px; border-color:#40b3ff; background-color:#e5f5ff}
+.msg .tips { background-position:3px -197px; border-color:#ffcc7f; background-color:#ffffe5}
+.msg .ok { background-position:3px -247px; border-color:#4dbf00; background-color:#f0ffe5}
+/*.msg .notice { background-position:5px -295px; border-color:#40b3ff; background-color:#e6f5ff}*/
+.msg .notice { background-position:5px -295px; border-color:#ffcc7f; background-color:#ffffe5}
+.msg .question { background-position:3px -347px; border-color:#bfbfbf; background-color:#f2f2f2}
+.msg .small-help { background-position:5px -397px; border-color:#fff; background-color:#fff} 
+.msg .small-yellow-help {background-position:5px -476px; border-color:#fff; background-color:#fff} 
+.msg .help { background-position:3px -445px; border-color:#fff; background-color:#fff} 
+.msg b.top{position:absolute;width:15px;height:8px;background-position:left -512px;left:13px;top:-7px;border:0px;overflow:hidden;z-index:2;padding:0px}
+.msg b.right{position:absolute;width:8px;height:15px;background-position:left -545px;border:0px;top:5px;right:-8px;overflow:hidden;z-index:2;padding:0px}
+.msg .tips i{width:20px;height:16px;position:absolute;bottom:0px;left:0px;background:#FFFFE5}
+.msg .notice i{width:23px;height:20px;position:absolute;bottom:0px;left:0px;background:#FFFFE5}
+.question{background-position:3px -347px;border-color:#fff; background-color:#fff}
+
+/*-------------------------------------------------
+ * Button
+ * -------------------------------------------------
+ */
+.btn{background-image:url('http://img04.taobaocdn.com/tps/i4/T1e5iGXa0eXXXXXXXX-171-300.png');background-repeat:no-repeat;display:inline-block;text-align:center;border:none;color:#000;text-decoration:none;}
+a.btn,a.btn:hover{color:#000;text-decoration:none;}
+/** gray btn **/
+.gray-btn{background-position:0px -65px;height:22px;width:60px;padding-top:4px;}
+.big-gray-btn{background-position:0px -98px;width:92px;height:28px;}
+a.disable-btn,a.disable-btn:hover{height:24px;line-height:24px;width:60px;background-position:-77px -67px;cursor:default;color:#b7b7b7;}
+/** 带三角的向上和向下按钮**/
+.up-btn,.down-btn{height:24px;line-height:24px;width:41px;padding-right:20px;text-align:right;} 
+.up-btn{background-position:1px -215px;}
+.down-btn{background-position:-77px -215px;}
+/** yellow btn **/
+.sel-icon{background-position:-141px 0px;height:30px;width:30px;}/** 对号选中的按钮**/
+.y-s-btn{background-position:-80px 0px;height:20px;line-height:20px;width:40px;color:#fff; cursor:pointer;} /** 搜索小黄色按钮**/
+@-moz-document url-prefix()
+{
+	.y-s-btn{padding-bottom:4px;}
+}
+.y-btn{background-position:0px -29px;height:22px;line-height:22px;width:60px;}
+.right-btn{background-position:0px 0px;height:20px;line-height:20px;padding-right:11px;}
+.h22-btn{background-position:-69px -29px;height:22px;line-height:22px;width:61px;}
+
+a.y-btn,a.y-s-btn,a.h22-btn{color:#fff;text-decoration:none;}
+/** ie6  **/
+a.y-btn:hover,a.y-s-btn:hover,a.h22-btn:hover,a.y-btn:visited,a.y-s-btn:visited,a.h22-btn:visited{color:#fff;text-decoration:none;}
+
+a.nobtn,a.nobtn:hover,a.nobtn:visited{color:#b6b6b6;text-decoration:none;cursor:default;}
+/*
+ * -----------------------------------------------------
+ * content
+ * -----------------------------------------------------
+ */
+.content {width:990px;margin:20px auto 0;position:relative; *margin:0px auto 0; *padding-top:10px;overflow:hidden}
+.article-title, .aside-title {height:26px;line-height:24px;padding:0 10px;color:#fff;font-weight:bold;font-size:14px;background:url("http://img03.taobaocdn.com/tps/i3/T19sOuXkxOXXXXXXXX-990-191.jpg") 0 0 no-repeat;}
+.article-title {background-position:-65px -37px;}
+.aside-title {background-position:-730px -74px;}
+
+/*
+ * -----------------------------------------------------
+ * Form input & textarea & select
+ * -----------------------------------------------------
+ */
+form input{vertical-align:middle;display:inline-block;*display:inline;*zoom:1;background-color:#fff}
+form .txt,form .text{padding:1px;background-color:#fff}
+form textarea{background-color:#fff}
+form .txt, form textarea, form select,form .text{box-shadow:none;border:1px #b7b7b7 solid;}
+form .err{border:1px red solid !important;}
+form .place{color:#ccc}
+form .w150{width:150px;}
+		
+/*
+ * -----------------------------------------------------
+ * Footer
+ * -----------------------------------------------------
+ */
+#footer{width:990px;border-top: 1px solid #D1D7DC;clear: both;margin: 10px auto;text-align: center;padding-top: 10px;}
+#footer .foot-nav {display: block;height: 20px;margin: 0 auto 0;}
+#footer .foot-nav a { margin: 0 7px; }
+#footer .ali-group { margin: 5px auto; }
+#footer .ali-group a { margin: 0 1px; }
+#footer .copyright { clear: both; margin: 15px auto 0; }
+#server-num { color: #fff; font-size: 11px; }
+.service-u{width:900px;margin:0 auto}
+
+
+/** 分页css **/
+.pagediv{float: right;}
+.page-center{position:absolute; right:50%;}
+.page-center .wrapper{position:relative; left:50%;overflow:hidden;} 
+.page-center .yui-pagination-content{float:left;}
+.yui-pagination-content{font:normal 12px/1.5 'Tahoma','simsun';_height:30px;clear:both;}
+.yui-pagination-focused{outline:none;}
+.yui-pagination-content em{font-style:normal;color:#818181;float:left;}
+.yui-pagination-content ins{text-decoration:none;color:#989898;margin-left:10px;margin-top:2px;_margin-right:2px;float:left;}
+.yui-pagination-content ins input{width:40px; border:1px solid #D4D4D4;margin:0 5px;}
+.yui-pagination-content ins button{border:1px solid #808080; background:#ffffff;color:#989898;cursor:pointer;margin-left:5px;padding:0;width:36px;height:20px;}
+.yui-pagination-content ins button:hover, .yui-pagination-content ins button.jumpbtn-hover{background:#009FE8;color:#ffffff;}
+.yui-pagination-content a{float:left;height:20px;border:1px solid #D3D3D3; padding:0 6px;line-height:20px;margin: 3px;color:#808080;text-decoration:none;cursor:pointer;}
+.yui-pagination-content a:hover{border-color:#019FE8; color:#009EE8;}
+.yui-pagination-content .current{background:#00A0E9; border-color:#00A0E9; color:#FFFFFF !important;}
+.yui-pagination-content .page-prev, .yui-pagination-content .page-prev-disabled, .yui-pagination-content .page-next, .yui-pagination-content .page-next-disabled{background:url(http://img01.taobaocdn.com/tps/i1/T1_PVrXaNfXXXXXXXX-4-88.png) no-repeat 8px -20px;}
+.yui-pagination-content .page-prev-disabled, .yui-pagination-content .page-next-disabled{background-position: 8px 7px;cursor:text;border-color:#D4D4D4 !important; color:#D4D4D4 !important;}
+.yui-pagination-content .page-prev, .yui-pagination-content .page-prev-disabled{width:8px;text-indent:20px;overflow:hidden;}
+.yui-pagination-content .page-next, .yui-pagination-content .page-next-disabled{background-position:42px -74px; padding-right: 10px;padding-left:3px;}
+.yui-pagination-content .page-next-disabled{background-position: 42px -47px;}	
+

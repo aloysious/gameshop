@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lte9 lte8"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9 lte9"> <![endif]-->
+<!--[if gt IE 9]><html class="no-js"><![endif]-->
+<!--[if !IE]><!--><html><!--<![endif]-->
+	<head>
+		<meta charset="gbk">
+		<title>购买流程 – 淘宝保险</title>
+		<meta name="description" content="淘宝 保险 淘宝保险">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!-- 响应式设计代码 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link type="image/x-icon" href="http://www.taobao.com/favicon.ico" rel="shortcut icon" />
+		<script>window.g_config={appId:10,toolbar:false};</script>
+		<!-- html5reset and css3 -->
+		<link rel="stylesheet" href="http://a.tbcdn.cn/??p/global/1.0/global-min.css,app/dp/s/html5/css/common-min.css,app/dp/insure/framework/css/framework.css"/>
+		<!--[if lt IE 9]><script src="http://a.tbcdn.cn/app/dp/s/html5/js/??html5shiv-min.js,modernizr-v2.5.3-min.js"></script><![endif]-->
+		<!--[if gte IE 9]><!--><script src="http://a.tbcdn.cn/app/dp/s/html5/js/modernizr-v2.5.3-min.js"></script><!--<![endif]-->
+		<script src="http://a.tbcdn.cn/??s/kissy/1.2.0/seed-min.js,p/global/1.0/global-min.js,s/yui/3.4.1/build/yui/yui-min.js,app/dp/insure/framework/js/ins-global.js"></script>
+	</head>
+	<body>
+		<!-- 淘宝公用吊顶 {{-->
+        <!--#include virtual="../../framework/demo/site-nav.html"-->
+        <!-- 淘宝公用吊顶 }}-->
+        <!-- 保险公用头部 {{-->
+        <!--#include virtual="../../framework/demo/header.html"-->
+		
+		<style>
+			.ins-buy-flow {width:990px;margin:15px auto;color:#1d1d1d;}
+			.ins-buy-flow h1 {font-size:24px;text-align:center;}
+			.ins-buy-flow .flow-image {margin-top:45px;height:232px;background:url("http://img01.taobaocdn.com/tps/i1/T1cKm3XkRpXXXXXXXX-48-48.gif") center center no-repeat;}
+			.ins-buy-flow .flow-image img {vertical-align:bottom;}
+			
+			.item-desc {width:988px;margin:30px auto 45px;border:1px solid #dcdcdc;padding:30px 0;}
+			.item-desc-bd {width:790px;margin:0 auto;}
+			.item-desc-loading {color:#777;font-size:14px;margin:0 auto;width:150px;padding-left:40px;height:32px;line-height:32px;background:url("http://img03.taobaocdn.com/tps/i3/T1b1m3XkVpXXXXXXXX-32-32.gif") left center no-repeat;}
+		</style>
+		<article class="ins-buy-flow">
+			<h1>购买流程</h1>
+			<div class="flow-image"><img src="http://img03.taobaocdn.com/tps/i3/T1BILxXkRgXXaI6yTh-990-232.gif" alt="购买流程图" title="购买流程" /></div>
+		</article>
+		<div class="item-desc">
+			<div class="item-desc-bd" id="J_item_desc_bd"><p class="item-desc-loading">宝贝详情加载中...</p></div>
+		</div>
+		<script>
+			INS.use('get', function(Y) {
+				var _ins_item_desc_url_ = 'http://dsc.taobaocdn.com/i6/140/690/14169245731/T1nnDpXelmXXcWeqbX.desc|var^desc;sign^d2b32948f929ccf0f2ccf1e6bb96b8bf;lang^gbk;t^1341192630';
+				Y.Get.script(_ins_item_desc_url_, {
+					charset: 'gbk',
+					onSuccess: function() {
+						if (window.desc && typeof window.desc === 'string') {
+							document.getElementById('J_item_desc_bd').innerHTML = window.desc;
+						}
+					}
+				});
+			});
+		</script>
+		
+		<!-- 保险公用底部 {{-->
+        <!--#include virtual="../../framework/demo/footer.html"-->
+        <!-- 保险公用底部 }}-->
+	</body>
+</html>

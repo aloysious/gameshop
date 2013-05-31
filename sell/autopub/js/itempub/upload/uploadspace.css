@@ -1,0 +1,466 @@
+/* CSS reset{{{*/
+/**
+ * reset.css based on YUI
+ *
+ * Update Log:
+ * 2009-05-18   yubo    将html的默认背景色从白色改成透明
+ * 2009-03-26   yubo    将reset.css和base.css合并为reset.css
+ * 2009-02-11   yubo    将small的样式也reset掉
+ * 2009-02-10   yubo    border: 0 -> border: none
+ * 2008-12-23   yubo    margin: 0; padding: 0 中加入 button. 表单元素相关样式中也加入button
+ * 2008-11-12	yubo	created initial version
+ */
+
+body { font: 12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;}
+html, legend { color: #404040; background: #fff; }
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,img {
+	border: none;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+li { list-style: none; }
+
+caption,th { text-align: left; }
+
+h1,h2,h3,h4,h5,h6 { font-size: 100%; }
+h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+
+q:before,q:after { content: ''; }
+
+abbr,acronym { border: none; font-variant: normal; }
+
+/* to preserve line-height and selector appearance */
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+
+input,button,textarea,select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+/*to enable resizing for IE*/
+input,button,textarea,select { *font-size: 100%; }
+
+select, input, button, textarea {
+	font: 100% Tahoma,Helvetica,Arial;
+}
+
+/**
+ * To help tables remember to inherit
+ */
+table { font-size: inherit; font: 100%; }
+
+/**
+ * fixed-width elements
+ */
+pre, code, kbd, samp, tt{
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/**
+ * 默认情况下，small的字号比默认小，这里reset掉，抹平差异
+ * 对于中文默认为12px时，让small也12px非常有必要。小于12px的中文字很难识别
+ */
+small { font-size: 100%; }
+
+/*a:link, a:visited {*/
+a {
+	color: #36c;
+	text-decoration: none;
+}
+/*a:hover, a:active {*/
+a:hover {
+	color: #f60;
+	text-decoration: underline;
+}
+
+abbr,acronym {
+	/* indicating to users that more info is available */
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+hr {
+    color: #D1D7DC;
+    background-color: #D1D7DC;
+    border: none;
+    height: 1px;
+}
+/*}}}*/
+
+/* dpl-paginator lite START{{{ */
+.dpl-paginator-lite {
+        font: 12px/1.5 tahoma,arial,宋体;
+        height: 20px;
+}
+
+.dpl-paginator-lite .dpl-paginator-pages,
+.dpl-paginator-lite a {
+        display: block;
+        float: left;
+        margin-right: 5px;
+}
+
+.dpl-paginator-lite .dpl-paginator-pages {
+        color: #404040;
+        line-height: 20px;
+        height: 20px;
+}
+
+.dpl-paginator-lite a {
+        color:  #06C;
+        text-decoration: none;
+        line-height: 18px;
+        border: 1px solid #CCC;
+        height: 18px;
+}
+
+.dpl-paginator-lite a:hover {
+        color: #FF5500;
+        border-color: #FF5500;
+}
+
+.dpl-paginator-lite a:active {
+        color: #FF0000;
+        background-color: #FFEEE5;
+        border-color: #FF5500;
+}
+
+.dpl-paginator-lite a:focus {
+        outline: none;
+}
+
+.dpl-paginator-lite .dpl-paginator-pre,
+.dpl-paginator-lite .dpl-paginator-next {
+        text-align: left;
+        position: relative;
+}
+
+.dpl-paginator-lite .dpl-paginator-pre {
+        width: 15px;
+}
+
+.dpl-paginator-lite .dpl-paginator-next {
+        padding: 0 15px 0 5px;
+}
+
+.dpl-paginator-lite .dpl-paginator-next:active {
+        padding: 1px 14px 0 6px;
+    height: 17px;
+    width: 36px;
+}
+
+.dpl-paginator-lite .dpl-paginator-arrow-left,
+.dpl-paginator-lite .dpl-paginator-arrow-right {
+        border: 5px solid #FFF;
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 4px;
+        margin-right: 0;
+        cursor: pointer;
+        overflow: hidden;
+}
+
+.dpl-paginator-lite .dpl-paginator-arrow-left {
+        border-right-color: #F60;
+        left: 0;
+}
+
+.dpl-paginator-lite .dpl-paginator-arrow-right {
+        border-left-color: #F60;
+        right: 0;
+}
+
+/* IE6 fix */
+.dpl-paginator-lite .dpl-paginator-next:active .dpl-paginator-arrow-right {
+        _border-color: #FFEEE5;
+}
+
+.dpl-paginator-lite .dpl-paginator-pre-disabled,
+.dpl-paginator-lite .dpl-paginator-next-disabled {
+        display: block;
+        float: left;
+        margin-right: 5px;
+        color: #CCC;
+        line-height: 18px;
+        height: 18px;
+        border: 1px solid #CCC;
+        text-align: left;
+        position: relative;
+}
+
+.dpl-paginator-lite .dpl-paginator-pre-disabled {
+        width: 15px;
+}
+
+.dpl-paginator-lite .dpl-paginator-next-disabled {
+        padding: 0 15px 0 5px;
+}
+
+.dpl-paginator-lite .dpl-paginator-pre-disabled .dpl-paginator-arrow-left {
+        border-right-color: #CCC;
+        left: 0;
+        cursor: default;
+}
+
+.dpl-paginator-lite .dpl-paginator-next-disabled .dpl-paginator-arrow-right {
+        border-left-color: #CCC;
+        cursor: default;
+}
+.dpl-paginator-lite form {
+    float: left;
+    color: #999;
+}
+.dpl-paginator-lite button {
+    line-height: 14px;
+    margin-top:2px;
+    padding: auto 2px auto 2px;
+    height: 21px;
+}
+.dpl-paginator-lite input {  
+    line-height: 14px;
+    text-align: center;
+    padding: 2px 0;
+    width: 30px;
+    height: 14px;
+    border: 1px solid #CCC;
+}
+/* dpl-paginator lite END}}} */
+
+/* sprite {{{*/
+.frame-space .act-top span,
+.frame-space .add-upload button,
+.frame-space .img-act a{
+    background: url(http://img01.taobaocdn.com/tps/i1/T1jxufXd4iXXXXXXXX-180-130.png) no-repeat -999em -999em transparent;
+}
+/*}}}*/
+
+/* common style {{{*/
+.clearfix {
+    *zoom:1;
+}
+.clearfix:before, .clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+.hidden{display: none;}
+/*}}}*/
+
+
+#frame .frame-space {
+    width:602px;
+}
+.frame-space .top-bar {
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+.frame-space .top-bar form{
+    display: inline;
+    *float:left;
+}
+.frame-space .top-bar input {
+    padding: 2px 0;
+}
+.frame-space .top-bar .info {
+    float:right;
+    margin-right:3px;
+    color: #aaa;
+}
+.frame-space .top-bar .info em {
+    color: #f60;
+}
+.frame-space .top-bar .info a {
+    margin-left: 3px;
+}
+.frame-space .list-table {
+
+    padding-bottom:20px;
+    width: 602px;
+    overflow:hidden;
+}
+.frame-space .list-table ul{
+    width: 600px; height: 230px;
+    overflow:hidden;
+}
+.frame-space .list-table li {
+    display:block;
+    float:left;
+    margin: 5px;
+    border:3px solid #cfcfcf;
+    height: 100px; width: 100px; overflow:hidden;
+    line-height: 100px; 
+    font-size: 0;
+    vertical-align: middle; text-align: center;
+    background: #fff;
+}
+.frame-space .list-table li img {
+    vertical-align: middle;
+}
+.frame-space .list-table li.selected {
+    border:3px solid #b5cef3;
+}
+.frame-space .pager {
+    clear:both;
+    height: 25px; padding:2px 0;
+}
+.frame-space .pager .dpl-paginator-lite {
+    float:right;
+    padding: 2px 0;
+}
+
+.frame-space .add-upload {
+    padding: 20px 0 10px;
+    border-top:1px dashed #CCCCCC;
+    clear: both;
+    width: 100%;
+    position:relative;
+}
+.frame-space .add-upload .hidden {
+    display:none;
+}
+.frame-space .act-top .hidden {
+    visibility: hidden;
+}
+.frame-space .turnoff .act-top .hidden {
+    visibility:visible;
+}
+.frame-space .turnoff .hidden {
+    display:block;
+}
+.frame-space .act-top {
+    margin-bottom:10px;
+}
+.frame-space .act-top .btn-scan {
+    display:inline-block; *display:inline; *zoom:1;
+    height: 20px; width: 180px;
+    overflow:hidden;
+    padding: 3px 0 2px;
+    text-align: center;
+    border: 0;
+    background-position: 0 -78px;
+    position: relative;
+}
+.frame-space .act-top .disabled {
+    color:#aaa;
+}
+.frame-space .act-top .btn-scan em {
+    position:absolute; left: 0; top: 0;
+}
+.frame-space .act-top .operator {
+    display:inline;
+    margin-left:20px;
+}
+.frame-space .act-bottom {
+    *float:left;
+}
+.frame-space .upload-list {
+    margin-bottom: 10px;
+    position:relative;
+}
+.frame-space .act-bottom button {
+    height: 25px; width: 132px;
+    border: 0;
+    margin-right: 5px;
+    display:inline-block; *display:inline; *zoom:1;
+    cursor: pointer;
+}
+.frame-space .act-bottom .btn-upload {
+    color: #fff;
+    background-position:-48px -26px;
+}
+.frame-space .uploading .btn-upload {
+    color:#aaa;
+    background-position: -48px -104px;
+}
+.frame-space .uploading .btn-clear {
+    color:#aaa;
+}
+.frame-space .uploading-tip {
+    display:none;
+    position: absolute;
+    width: 100%; height: 100%;
+    left: 0; top: 0;
+}
+.frame-space .uploading .uploading-tip {
+    display:block;
+}
+.frame-space .uploading-tip .alayer {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+    opacity: 0.8; filter: alpha(opacity=80);
+}
+.frame-space .uploading-tip .fixPosition {
+    display: table;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+.frame-space .uploading-tip p {
+    background: url("http://img01.taobaocdn.com/tps/i1/T1mrmfXdlmXXXXXXXX-118-10.gif") no-repeat scroll center top transparent;
+    display: block;
+    padding: 15px 0 0;
+    text-align: center;
+    position: relative;
+    top: -50%;
+}
+.frame-space .upload-table {
+    width:602px; max-height: 217px;
+    overflow-y:auto; overflow-x: hidden;
+    border:1px solid #CED5E0; border-width: 1px 0 1px 1px;
+}
+.frame-space .limit-height {
+    _height: 217px;
+}
+.frame-space table {
+    width: 100%;
+    border-right: 1px solid #CED5E0;
+}
+.frame-space thead {
+    display:none;
+}
+.frame-space table th,
+.frame-space table td {
+    border-bottom:1px solid #CED5E0;
+    padding: 6px;
+}
+.frame-space table .failload {
+    color:#F00;
+}
+.frame-space table .cell-act {
+    text-align:center;
+}
+.frame-space .extra-info {
+    padding: 3px 0;
+    color:#aaa;
+}
+.frame-space .extra-info em{
+    font-weight: 700;
+    color:#404040;
+}

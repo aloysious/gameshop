@@ -1,0 +1,17 @@
+.yui3-vehicle {position:absolute;}
+.yui3-vehicle .yui3-aclist-content {background:#fff;border:1px solid #afafaf;box-shadow:1px 1px 4px #888;overflow:hidden;}
+.yui3-vehicle .yui3-aclist-list {margin-top:-1px;position:relative;}
+.yui3-vehicle .yui3-aclist-item {padding:0;outline:none;cursor:default;}
+.yui3-vehicle .yui3-vehicle-brand {padding:5px;display:none;font-size:14px;line-height:22px;position:relative;border-bottom:1px dashed #e3e3e3;}
+.yui3-vehicle .yui3-vehicle-brand span {cursor:pointer;border:1px solid #308b0a;padding:0 18px 0 3px;font-size:12px;height:17px;line-height:17px;background:#f7fef6;display:inline-block;*display:inline;*zoom:1;background:url("http://img02.taobaocdn.com/tps/i2/T1U4FHXClaXXbR5uzX-15-13.gif") right 2px no-repeat;}
+.yui3-vehicle .yui3-vehicle-type {border-top:1px dashed #e3e3e3;font-size:12px;overflow:hidden;line-height:24px;padding:5px 5px 0;position:relative;_zoom:1;}
+.yui3-vehicle .yui3-vehicle-type .yui3-vehicle-title {font-size:14px;font-weight:bold;float:left;} 
+.yui3-vehicle .yui3-vehicle-type .yui3-vehicle-more {position:absolute;right:8px;top:5px;}
+.yui3-vehicle .yui3-vehicle-type .yui3-vehicle-more:hover {text-decoration:underline;}
+.yui3-vehicle .yui3-vehicle-type .yui3-vehicle-counter {float:right;color:#ff6600;}
+.yui3-vehicle .yui3-vehicle-type-brand .yui3-vehicle-counter {margin-right:50px;}
+.yui3-vehicle .yui3-vehicle-item {font-size:12px;clear:both;padding:5px;color:#666;cursor:pointer;}
+.yui3-vehicle .yui3-aclist-item-hover,
+.yui3-vehicle .yui3-aclist-item-active {background:#fff;}
+.yui3-vehicle .yui3-aclist-item-hover .yui3-vehicle-item {background:#bfdaff;}
+.yui3-vehicle .yui3-aclist-item-active .yui3-vehicle-item {background:#2647a0;color:#fff;}

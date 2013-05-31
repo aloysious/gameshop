@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="gbk"/>
+	<title> 淘宝网 - 保险 </title>
+	<script>window.g_config = {appId:10, toolbar:false};</script>
+	<!-- start vmc js 3.1 -->
+<script src="http://a.tbcdn.cn/??s/kissy/1.1.6/seed-min.js,p/global/1.0/global-min.js,s/yui/3.5.1/build/yui-base/yui-base-min.js,app/dp/insure/framework/js/loader/3.5.1/loader.js,app/dp/insure/autopub/js/addmojo.js?t=20130403.js"></script><!-- end vmc js 3.1 -->
+
+
+	<!-- start vmc css 3.1-->
+<link rel="stylesheet" href="http://a.tbcdn.cn/??p/global/1.0/global-min.css,app/dp/insure/autopub/css/buy.css?t=20100214.css" /><!-- end vmc css 3.1-->
+
+	<!--[if IE]>
+	<script src="http://a.tbcdn.cn/app/dp/insure/autopub/js/html5.js"></script>
+	<![endif]-->
+	<script>
+		var tmpOrderId ="25882607312";
+		var bizOrderId ="";
+	</script>
+</head>
+<body><script type="text/javascript">
+(function (d) {
+var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+t.setAttribute("exparams","category=&userid=10168372&aplus");
+t.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script>
+
+	<!-- start vmc 3.1 -->
+<div id="site-nav"><div id="site-nav-bd">
+    	<div class="sitenav-mobile"><a href=" http://www.taobao.com/m?spm=1.1000386.176505.4&amp;TBG=146112.176505.4">手机版</a></div>
+    <p class="login-info">
+ 	        <script>TB.Global.writeLoginInfo({"memberServer": "http://member1.taobao.com/", "outmemServer" : "", "loginServer": "https://login.taobao.com/", redirectUrl : "", logoutUrl : ""});</script>
+           </p>
+
+        <ul class="quick-menu">
+        <li class="home"><a href="http://www.taobao.com/" target="_top">淘宝网首页</a></li>
+        <style>
+  #site-nav .quick-menu li.sale1212 {
+    margin-top: 3px;
+    *margin-top: 1px;
+    background: none;
+    position:absolute;
+    left:-70px;
+    
+  }
+</style>
+
+<li class="menu-item">
+  <div class="menu">
+    <a class="menu-hd" style="width:36px;" href="http://love.taobao.com/?taobao_from=1" target="_top" rel="nofollow">我要买<b></b></a>
+    <div class="menu-bd" style="width:68px;height:94px;line-height:1.7;">
+      <div class="menu-bd-panel" style="padding:8px 10px;">
+        <div>
+          <a href="http://love.taobao.com/guang/index.htm?taobao_from=3" target="_top" rel="nofollow">逛宝贝</a>
+          <a href="http://love.taobao.com/album/index.htm?taobao_from=4" target="_top" rel="nofollow">翻专辑</a><br />
+          <a href="http://love.taobao.com/assemble/index.htm?&taobao_from=5" target="_top" rel="nofollow">生活私搭</a>
+          <a href="http://list.taobao.com/browse/cat-0.htm?taobao_from=6" target="_top" rel="nofollow">商品分类</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+
+<li class="mytaobao menu-item">
+  <div class="menu">
+    <a class="menu-hd" href="http://i.taobao.com/my_taobao.htm" target="_top" rel="nofollow">我的淘宝<b></b></a>
+    <div class="menu-bd" style="height: 94px;width:100px">
+      <div class="menu-bd-panel" id="myTaobaoPanel">
+        <div >
+          <a href="http://trade.taobao.com/trade/itemlist/list_bought_items.htm" target="_top" rel="nofollow">已买到的宝贝</a>
+        </div>
+        <div >
+          <a href="http://dongtai.taobao.com/square.htm?nav=2&tracelog=dtgc_tbsycd" target="_top" rel="nofollow">店铺动态</a>
+        </div>
+        <div >
+          <a href="http://i.taobao.com/my_taobao.htm?tracelog=taobaoindexrsidenewfeed" target="_top" rel="nofollow">好友动态</a>
+        </div>
+        <div >
+          <a href="http://yingyong.taobao.com?scm=1012.8.8.4" target="_top" rel="nofollow">买家应用中心</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</li>
+
+<style>
+  #site-nav .seller-center .menu-hd{ width:48px;}
+  #site-nav .seller-center .menu-bd{ width: 94px; line-height:1.7;}
+  #site-nav .seller-center .menu-bd-panel{padding: 8px 10px;}
+</style>
+<li class="seller-center menu-item">
+  <div class="menu">
+    <a class="menu-hd" href="http://mai.taobao.com/seller_admin.htm" target="_top" rel="nofollow">卖家中心<b></b></a>
+    <div class="menu-bd">
+      <div class="menu-bd-panel">
+        <div>
+          <a href="http://trade.taobao.com/trade/itemlist/list_sold_items.htm" target="_top" rel="nofollow">已卖出的宝贝</a>
+          <a href="http://sell.taobao.com/auction/goods/goods_on_sale.htm" target="_top" rel="nofollow">出售中的宝贝</a>
+          <a href="http://fuwu.taobao.com/?tracelog=tbdd" target="_top" rel="nofollow">卖家服务市场</a>
+          <a href="http://learn.taobao.com/user/xueyuanRedirect.htm?target=http://www.alibado.com" target="_top" rel="nofollow">卖家培训中心</a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li class="service">
+  <a href="http://service.taobao.com/support/main/service_center.htm" target="_top" rel="nofollow">联系客服</a>
+</li>
+<li class="cart">
+  <a href="http://cart.taobao.com/my_cart.htm" target="_top" rel="nofollow">
+    <s>
+    </s>购物车
+  </a>
+  <b class="leftline"></b>
+  <b class="rightline"></b>
+</li>
+<li class="favorite menu-item">
+  <div class="menu">
+    <a class="menu-hd" style="width:36px;" href="http://ju.mmstat.com/?url=http://favorite.taobao.com/collect_list-1-.htm?ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739&scjjc=c1" target="_top" rel="nofollow">收藏夹<b></b></a>
+    <div class="menu-bd" style="width:82px;height:73px;line-height:1.7;">
+      <div class="menu-bd-panel" style="padding:8px 10px;">
+        <div>
+          <a href="http://favorite.taobao.com/collect_list.htm?itemtype=1" target="_top" rel="nofollow">收藏的宝贝</a>
+          <a href="http://favorite.taobao.com/collect_list.htm?itemtype=0" target="_top" rel="nofollow">收藏的店铺</a>
+          <a href="http://favorite.taobao.com/hot_collect_list.htm?entrance=home" target="_top" rel="nofollow">热门收藏</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+
+<li class="services menu-item last">
+  <div id="J_Service" class="menu">
+    <a class="menu-hd" href="http://www.taobao.com/sitemap.php?id=sitemap2" target="_top">网站导航<b></b></a>
+    <div id="J_ServicesContainer" class="menu-bd" style="width:202px;width:210px\9;_width:202px;height:337px;"></div>
+  </div>
+</li>
+    </ul>
+</div></div>
+<!-- system-announce -->
+
+<!-- end vmc 3.1 -->
+	<script> KISSY.use('core', function(S) { TB.Global.init(); }); </script>
+
+	<!-- 投保页头部 {{-->
+	<header id="ins-header">
+			<h1 id="ins-logo"><a href="http://www.taobao.com/" title="淘宝网"><img src="http://img02.taobaocdn.com/tps/i2/T14MKCXoXSXXXXXXXX-138-35.png" alt="淘宝网" title="淘宝网" /></a></h1>
+		</header>
+	<!-- 投保页头部 }}-->
+	
+<div id="ins-content" class="ins-content" role="content">
+	<!-- 内容区头部 {{-->
+	<div class="ins-content-hd">
+		<!-- 面包屑 {{-->
+
+		<div class="crumb"><a href="http://baoxian.taobao.com">保险首页</a><i>&gt;</i><a href="/item.html?id=15316127516">阳光家庭财产火灾保险</a><i>&gt;</i><span>投保</span></div>
+		<!-- 面包屑 }}-->
+
+		<!-- 客服旺旺 {{-->
+		<div class="ww-service">在线客服：<span data-display="inline" data-nick="阳光产险旗舰店" data-tnick="阳光产险旗舰店" class="J_WangWang"></span></div>
+		<!-- 客服旺旺 }}-->
+
+		<!-- 险种名称 {{-->
+		<h1 class="ins-title">阳光家庭财产火灾保险</h1>
+
+		<!-- 险种名称 }}-->
+
+		<!-- 投保步骤 {{-->
+		<div class="iflow">
+			<ol>
+				<li class="cur"><b>1</b><span>核对订单</span></li>
+				<li><b>2</b><span>支付宝支付</span></li>
+			</ol>
+		</div>
+		<!-- 投保步骤 }}-->
+	</div>
+	<!-- 内容区头部 }}-->
+
+	<!-- 主内容区 {{-->
+	<div class="ins-content-bd">
+		<div class="flow-content">							
+<article class="check-order">
+<form class="widget-form" id="ins_widget_form" action="buy_now.html" method="post">
+    <input name='_tb_token_' type='hidden' value='nmNbxcN5m'>
+    <input type="hidden" name="juCommon" value=""/>
+    <input type="hidden" name="bizOrderId" value=""/>
+    <input type="hidden" name="tmpOrderId" value="34616436244"/>
+    <input type="hidden" name="itemId" value="15316127516"/>
+    <input type="hidden" name="skuId" value="25071064640"/>
+    <input type="hidden" name="action" value="buy_confirm_action"/>
+    <input type="hidden" name="event_submit_do_buy" value="1"/>
+		<!-- 订单表格 {{-->
+		<section class="order-content info-mod">
+			<div class="info-mod-hd">
+				<h1 class="info-mod-title">订单信息</h1>
+			</div>
+			<div class="info-mod-bd">
+				<!-- 保单明细表格 {{-->
+				<div class="order-detail">
+					<h2>保单明细</h2>
+
+					<div class="order-mod">
+						<table class="info-mod-table">
+							<tr>
+								<th>投保份数：</th>
+								<td  colspan="3" class="colspan-3">1 份/人</td>
+							</tr>
+							<tr class="order-ins-desc">
+								<th>保险简介：</th>
+								<td  colspan="3" class="colspan-3">
+									房屋及其室内附属设备，保额20万；室内财产，保额5万
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<!-- 保单明细表格 }}-->
+			</div>
+		</section>
+
+		<section class="premium-info info-mod">
+	<div class="info-mod-hd">
+		<h1 class="info-mod-title">保费</h1>
+	</div>
+	<div class="info-mod-bd">
+				<p>保费：<span class="premium-price" unit-price="25.0">25.0</span>元</p>
+	</div>
+</section>
+
+		<!-- 确认订单 {{-->
+		<div class="confirm-order">
+			<div id="J-loading-tips" class="loading-tips hidden">
+				<h4 class="title">转向订单管理</h4>
+
+				<p>核保需要一些时间，请关注订单管理页订单状态，核保成功后您可再进行支付宝付款。</p>
+			</div>
+			<div id="J-ajaxallbox">
+				<div id="J-ajaxbox" class="btn-box form-ctrl">
+					<input type="submit" id="J-BuyIns" value="确认无误，购买" title="确认无误，购买" class="confirm-btn"/>
+					<img id="J_Loading" style="display: none;" alt="loading..." src="http://img07.taobaocdn.com/tps/i7/T1x2dpXkJrXXXXXXXX-16-16.gif"/>
+				</div>
+			</div>
+			<div id="J-tips" class="tip-loading"></div>
+		</div>
+		<!-- 确认订单 }}-->
+		</form>
+</article>		</div>
+	</div>
+	<!-- 主内容区 }}-->
+
+</div>
+<script>
+	INS.applyConfig({
+		modules: {
+			'item-detail-jhs': {
+				fullpath: 'http://a.tbcdn.cn/app/dp/insure/autopub/js/item-detail-jhs.js',
+				requires: ['node', 'io', 'json-parse']
+			}
+		}
+	});
+	INS.use('item-detail-jhs');
+</script>
+
+
+</body>
+</html>
